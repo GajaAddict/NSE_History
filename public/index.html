@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" language="javascript" src="smallCase1.json"></script>
+  <script type="text/javascript" language="javascript" src="smallCase2.json"></script>
+  <script type="text/javascript" language="javascript" src="smallCase3.json"></script>
+  <script type="text/javascript" language="javascript" src="smallCase4.json"></script>
+  <script type="text/javascript" language="javascript" src="smallCase5.json"></script>
+  <script type="text/javascript" language="javascript" src="smallCase6.json"></script>
+  <script src="sc.js"></script>
+</head>
+
+<body>
+  <div class="container col-md-12">
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#smallCase">Small Case</a></li>
+      <li><a data-toggle="tab" href="#scHistory">SC History</a></li>
+      <li><a data-toggle="tab" href="#scStocksHistory">SC Stock History</a></li>
+      <li><a data-toggle="tab" href="#Nifty50">Nifty 200</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <div id="smallCase" class="tab-pane fade in active">
+        <input type="button" class="scToday" id="scToday" value="Load"></input>
+        <table id="TableData">
+          <thead style="font-weight: bold;">
+            <tr>
+              <td>Name</td>
+              <td>Daily</td>
+              <td>Weekly</td>
+              <td>Monthly</td>
+              <td>Last_Close</td>
+              <td>Index</td>
+            </tr>
+          </thead>
+          <tbody id="tbod"></tbody>
+        </table>
+      </div>
+
+      <div id="scHistory" class="tab-pane fade">
+        <input type="button" class="scHistory" id="scHistoryBtn" value="Load"></input>
+        <select id="scDrop">
+        </select>
+
+        <div id="SmallCasehistory" class="historySec">
+          <div class="eachSC">
+            <span class="title">small Case Name</span>
+            <span class="eachDay">
+              <span class="dayPer pos">0.5
+              </span>
+              <span class="day pos">300.23
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div id="scStocksHistory" class="tab-pane fade">
+        <input type="button" class="scHistory" id="scStocksHistoryBtn" value="Load"></input>
+        <select id="scStockDrop">
+        </select>
+
+        <div id="SmallCaseStockhistory" class="historySec">
+          <div class="eachSC">
+            <span class="title">small Case Name</span>
+            <span class="eachDay">
+              <span class="dayPer pos">0.5
+              </span>
+              <span class="day pos">300.23
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div id="Nifty50" class="tab-pane fade">
+        <input type="button" class="nftHistory" id="nftHistoryBtn" value="Load"></input>
+        <select id="nftDrop">
+        </select>
+
+        <div class="historySec" id="niftyHistory">
+          <div class="eachSC">
+            <span class="title">Nifty Name</span>
+            <a href="https://www.google.com" target="_blank"><span class="glyphicon glyphicon-calendar"
+                style="font-size: 20px;"></span></a>
+            <a href="www.google.com" target="_blank"><span class="glyphicon glyphicon-stats"
+                style="font-size: 20px;"></span></span></a>
+            <span class="eachDay">
+              <span class="dayPer pos">0.5
+              </span>
+              <span class="day pos">300.23
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
