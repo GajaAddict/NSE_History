@@ -105,6 +105,30 @@
     </div>
   </div>
 
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCGVJ4SSvy42Cvsoy3zsonOuzfOZYh637U",
+      authDomain: "nifty-stocks.firebaseapp.com",
+      projectId: "nifty-stocks",
+      storageBucket: "nifty-stocks.appspot.com",
+      messagingSenderId: "233519268898",
+      appId: "1:233519268898:web:771d0249eeee2e4e4bb67b",
+      measurementId: "G-5XVT955TFJ"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
 </body>
 
 </html>
