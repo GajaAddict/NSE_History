@@ -64,6 +64,7 @@ $(document).ready(function () {
             }
         });
     });
+    
 
     $('#scHistoryBtn').on('click', function () {
         masterArray = [];
