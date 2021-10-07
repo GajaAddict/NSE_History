@@ -10,6 +10,7 @@ $(document).ready(function () {
     scIds = [];
     scIdsLength = 0;
     smallCaseStocks = [];
+    window.niftyFirstTime = 0;
     let dayReturn = generateReturnDays();
 
     function generateReturnDays() {
@@ -131,7 +132,7 @@ $(document).ready(function () {
             contentType: "application/json; charset=utf-8",
             headers: {
                 "x-csrf-token": "e6434d77",
-                "x-sc-jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI1ZTExYjk1YmM5OGRlNDM0NjY4YjVjMTQiLCJzZXNzaW9uIjoiMmQ2YmU3NzEiLCJjc3JmIjoiZTY0MzRkNzciLCJhY2Nlc3MiOnsicGxhdGZvcm0iOnRydWV9LCJtZXRob2QiOiJicm9rZXIiLCJhcHAiOiJwbGF0Zm9ybSIsImJyb2tlciI6ImtpdGUiLCJpYXQiOjE2MzMwMTE1MTYsImV4cCI6MTYzMzYxNjMxNn0.mMSbWJ3a-LcKZ-qhQ6oFX9dhuRJsgWjou8f4sp6caLA"
+                "x-sc-jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI1ZTExYjk1YmM5OGRlNDM0NjY4YjVjMTQiLCJzZXNzaW9uIjoiMmQ2YmU3NzEiLCJjc3JmIjoiZTY0MzRkNzciLCJhY2Nlc3MiOnsicGxhdGZvcm0iOnRydWV9LCJtZXRob2QiOiJicm9rZXIiLCJhcHAiOiJwbGF0Zm9ybSIsImJyb2tlciI6ImtpdGUiLCJpYXQiOjE2MzM2MjEzNzEsImV4cCI6MTYzNDIyNjE3MX0.v_sTdswLZbXIyuWWzX1XfhThL0iYGY-ADHwanH8vboU"
             },
             dataType: "json",
             success: function (data) {
@@ -260,10 +261,23 @@ $(document).ready(function () {
 
     $('#nftHistoryBtn').on('click', function () {
         niftyMasterArray = [];
+        let nifty100Page;
         nifty100Url = "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20100";
-        let nifty100Page = window.open(nifty100Url);
+        if (window.niftyFirstTime == 1) {
+            window.open("https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20100");
+        }
+        if (window.niftyFirstTime == 0) {
+            window.niftyFirstTime = 1;
+            nifty100Page = window.open("https://www.nseindia.com");
+        }
+
+
         $.get(nifty100Url, function (data) {
             if (data) {
+                $("#niftyHistory").html(`<h1> Data Loading... </h1>
+                <div class="spinner-border" role="status">
+  <span class="sr-only">Loading...</span>
+</div>`)
                 // win[0].close();
                 // win[1].close();
                 let datarows = data.data;
@@ -277,7 +291,10 @@ $(document).ready(function () {
                     }
                 }
             }
-        });
+        }).fail(function (e) {
+            $("#niftyHistory").html("<h1> Click Load Again </h1>")
+        })
+
     });
 
     function makeNiftyEachCall(symbol, flag) {
