@@ -38,6 +38,8 @@ $(document).ready(function () {
 
     $('#scToday').on('click', function () {
         $.get("https://api.smallcase.com/smallcases/discover?count=50&offset=1", function (data) {
+
+            $("#showCorsMsg").hide()
             if (data) {
 
                 let datarows = data.data;
@@ -62,7 +64,9 @@ $(document).ready(function () {
                 }
                 $("#tbod").html(table)
             }
-        });
+        }).fail(function (e) {
+            $("#showCorsMsg").hide()
+        })
     });
 
 
@@ -360,5 +364,7 @@ $(document).ready(function () {
             }
         });
     }
+
+    $('#scToday').click();
 
 });
