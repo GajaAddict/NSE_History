@@ -64,7 +64,7 @@ $(document).ready(function () {
             }
         });
     });
-    
+
 
     $('#scHistoryBtn').on('click', function () {
         masterArray = [];
@@ -195,8 +195,10 @@ $(document).ready(function () {
         for (let i = 0; i < keys.length; i++) {
             let eachSC = masterArray[keys[i]];
             let eachSCHtml = '<div class="eachSC"><span class="title">' + eachSC.name + '</span>';
-            eachSCHtml = eachSCHtml + '<a href="https://www.nseindia.com/get-quotes/equity?symbol=' + eachSC.name + '" target="_blank"><span class="glyphicon glyphicon-calendar" style="font-size: 20px;width: 30px;"></span></a>';
-            eachSCHtml = eachSCHtml + '<a href="https://in.tradingview.com/symbols/NSE-' + eachSC.name + '/" target="_blank"><span class="glyphicon glyphicon-stats" style="font-size: 20px;"></span></span></a>';
+            if (idForDisplay != "sc") {
+                eachSCHtml = eachSCHtml + '<a href="https://www.nseindia.com/get-quotes/equity?symbol=' + eachSC.name + '" target="_blank"><span class="material-icons" style="font-size: 30px;width: 40px;">query_stats</span></a>';
+                eachSCHtml = eachSCHtml + '<a href="https://in.tradingview.com/symbols/NSE-' + eachSC.name + '/" target="_blank"><span class="material-icons" style="font-size: 30px;width: 40px;">candlestick_chart</span></span></a>';
+            }
             dayReturn ? eachSCHtml = eachSCHtml + '<span class="eachDay">' + ((eachSC[dayReturn] && eachSC[dayReturn].toFixed(2)) || 0) + '</span>' : '';
             for (let j = 0; j < eachSC.indexHistory.length; j++) {
                 let percentColor = (eachSC.indexHistory[j].changePer > 0) ? 'pos' : 'neg';

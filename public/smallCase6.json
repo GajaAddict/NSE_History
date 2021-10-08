@@ -48,6 +48,3227 @@ let JSONN6 = [
                 },
                 "stats": {
                     "returns": {
+                        "daily": -0.0013964900732327196,
+                        "weekly": 0.0017650814840785415,
+                        "monthly": -0.020939904013093855,
+                        "quarterly": 0.05594034026914829,
+                        "halfyearly": 0.09077106184446233,
+                        "yearly": 0.31827428387179096,
+                        "threeYear": 0.8260856015897434,
+                        "fiveYear": 0.8260856015897434,
+                        "sinceInception": 0.8260856015897434,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 182.03374501119706,
+                    "unadjustedIndex": 182.03374501119706,
+                    "divReturns": 0.303492024523406,
+                    "minInvestAmountOverridden": false,
+                    "lastCloseIndex": 182.60856015897434,
+                    "minInvestAmount": 13167,
+                    "ratios": {
+                        "cagr": -0.0028043182122106103,
+                        "momentumRank": 330,
+                        "risk": 1,
+                        "sharpe": 1.4473445398666,
+                        "sharpeRatio": 0.930078900778517,
+                        "52wHigh": 190.25255515791787,
+                        "52wLow": 136.660265407388,
+                        "divYield": 0.6303175459526964,
+                        "divYieldDifferential": -0.7796824540473035,
+                        "largeCapPercentage": 100.00000001000001,
+                        "marketCapCategory": "Large cap",
+                        "midCapPercentage": 0,
+                        "pb": 6.140859002585569,
+                        "pbDiscount": 45.479030557826206,
+                        "pe": 40.80682289259382,
+                        "peDiscount": 52.70157219871767,
+                        "smallCapPercentage": 0,
+                        "ema": 181.0855935356579,
+                        "momentum": 0.8600821944039883,
+                        "lastCloseEma": 181.05136956660738,
+                        "riskLabel": "Medium Volatility",
+                        "oneYearLiveHistory": false,
+                        "cagrDuration": "8M"
+                    },
+                    "minSipAmount": 5000,
+                    "launchDateIndex": 100
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NIFTY100",
+                    "msg": "Compare with top 100 market cap stocks"
+                },
+                "scid": "SCTR_0015",
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 63
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "6026aa60bcf25719c152241f",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "userId": "5aec02e63e13c16f05e46272",
+                        "name": "Naveen K R"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "name": "House of Tata",
+                    "shortDescription": "Companies part of Tata group, a global enterprise with stellar reputation & legacy of 150+ years",
+                    "type": "Sector Trackers",
+                    "created": "2015-11-27T00:00:00.000Z",
+                    "uploaded": "2021-02-13T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "publisher": "smallcaseHQ",
+                    "publisherName": "Windmill Capital",
+                    "rebalanceSchedule": "quarterly",
+                    "nextUpdate": "2021-12-15T15:26:07.323Z",
+                    "slug": "house-of-tata-SCTR_0014",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "investmentStrategy": [],
+                    "micrositeUrl": "https://windmillcapital.smallcase.com/smallcase/SCTR_0014",
+                    "stateChange": {
+                        "date": "2021-07-07T11:12:42.958Z",
+                        "publisher": "smallcaseHQ",
+                        "publisherName": "Windmill Capital"
+                    }
+                },
+                "flags": {
+                    "active": true,
+                    "blocked": false,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "NONE"
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.0332985900072701,
+                        "weekly": 0.06396889917686166,
+                        "monthly": 0.10589740215107502,
+                        "quarterly": 0.24691533357014853,
+                        "halfyearly": 0.4935544194526765,
+                        "yearly": 1.3606555298635268,
+                        "threeYear": 2.3729343460801284,
+                        "fiveYear": 2.3729343460801284,
+                        "sinceInception": 4.914389893204738,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 592.3063906529424,
+                    "unadjustedIndex": 592.3063906529424,
+                    "divReturns": 0.352827002070025,
+                    "minInvestAmountOverridden": false,
+                    "lastCloseIndex": 591.4389893204738,
+                    "minInvestAmount": 61674,
+                    "ratios": {
+                        "52wHigh": 591.4389893204738,
+                        "52wLow": 249.367467304782,
+                        "divYield": 0.6806820005209135,
+                        "divYieldDifferential": -0.7293179994790864,
+                        "largeCapPercentage": 58.235000217,
+                        "marketCapCategory": "Large cap",
+                        "midCapPercentage": 41.76499978499999,
+                        "pb": 5.104926248617157,
+                        "pbDiscount": 20.937432597838914,
+                        "pe": 74.02281316701956,
+                        "peDiscount": 176.9977946807352,
+                        "smallCapPercentage": 0,
+                        "cagr": 0.607826182074201,
+                        "momentumRank": 1428,
+                        "risk": 1.5,
+                        "sharpe": 0.524426860471939,
+                        "sharpeRatio": 1.35632115815993,
+                        "ema": 518.4941817870524,
+                        "momentum": 14.430356800361599,
+                        "lastCloseEma": 516.8549726296097,
+                        "riskLabel": "High Volatility",
+                        "oneYearLiveHistory": false,
+                        "cagrDuration": "8M"
+                    },
+                    "minSipAmount": 5000,
+                    "launchDateIndex": 100
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NIFTY100",
+                    "msg": "Compare with top 100 market cap stocks"
+                },
+                "scid": "SCTR_0014",
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 33
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "6026a98a29178bcc4755ce4c",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "userId": "5aec02e63e13c16f05e46272",
+                        "name": "Naveen K R"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "name": "House of Bajaj",
+                    "shortDescription": "Companies part of Bajaj group, with footprint across a range of sectors",
+                    "type": "Sector Trackers",
+                    "created": "2015-11-27T00:00:00.000Z",
+                    "uploaded": "2021-02-13T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "publisher": "smallcaseHQ",
+                    "publisherName": "Windmill Capital",
+                    "rebalanceSchedule": "quarterly",
+                    "nextUpdate": "2021-12-15T15:26:08.253Z",
+                    "slug": "house-of-bajaj-SCTR_0013",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "investmentStrategy": [
+                        {
+                            "key": "sectorTracker",
+                            "displayName": "Sector Tracker"
+                        }
+                    ],
+                    "micrositeUrl": "https://windmillcapital.smallcase.com/smallcase/SCTR_0013",
+                    "stateChange": {
+                        "date": "2021-07-07T11:13:52.447Z",
+                        "publisher": "smallcaseHQ",
+                        "publisherName": "Windmill Capital"
+                    }
+                },
+                "flags": {
+                    "active": true,
+                    "blocked": false,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "NONE"
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.0015262874777354743,
+                        "weekly": -0.010658655194655671,
+                        "monthly": 0.015076388996696293,
+                        "quarterly": 0.2067076601572323,
+                        "halfyearly": 0.4664801332195568,
+                        "yearly": 1.2486060013291356,
+                        "threeYear": 1.857317396204056,
+                        "fiveYear": 1.857317396204056,
+                        "sinceInception": 5.643512167345005,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 663.9610178312793,
+                    "unadjustedIndex": 663.9610178312793,
+                    "divReturns": 10.8650552845396,
+                    "minInvestAmountOverridden": false,
+                    "lastCloseIndex": 664.3512167345004,
+                    "minInvestAmount": 55545,
+                    "ratios": {
+                        "cagr": 0.28204473283236786,
+                        "momentumRank": 1429,
+                        "risk": 1,
+                        "sharpe": 0.606704993085961,
+                        "sharpeRatio": 1.42952609505257,
+                        "52wHigh": 701.7653703095921,
+                        "52wLow": 283.495557661002,
+                        "divYield": 1.2271481406634925,
+                        "divYieldDifferential": -0.18285185933650738,
+                        "largeCapPercentage": 81.26,
+                        "marketCapCategory": "Large cap",
+                        "midCapPercentage": 0,
+                        "pb": 5.5898229922158436,
+                        "pbDiscount": 32.42480075751859,
+                        "pe": 42.790401459660124,
+                        "peDiscount": 60.12424184805412,
+                        "smallCapPercentage": 18.740000000000002,
+                        "ema": 620.7152620712315,
+                        "momentum": 7.199296640727226,
+                        "lastCloseEma": 619.7346788207374,
+                        "riskLabel": "Medium Volatility",
+                        "oneYearLiveHistory": false,
+                        "cagrDuration": "8M"
+                    },
+                    "minSipAmount": 5000,
+                    "launchDateIndex": 100
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NIFTY100",
+                    "msg": "Compare with top 100 market cap stocks"
+                },
+                "scid": "SCTR_0013",
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 75
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "6026988cbcf25719c152240b",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "userId": "602692d8bcf25719c15223dd",
+                        "name": "Manish Yadav"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "name": "Global Opportunities",
+                    "shortDescription": "Invest in global tech leaders along with largest Indian companies",
+                    "type": "ETF",
+                    "created": "2006-12-29T00:00:00.000Z",
+                    "uploaded": "2021-02-12T00:00:00.000Z",
+                    "updated": "2021-09-30T00:00:00.000Z",
+                    "publisher": "smallcaseHQ",
+                    "publisherName": "Windmill Capital",
+                    "rebalanceSchedule": "quarterly",
+                    "nextUpdate": "2021-12-30T15:26:14.666Z",
+                    "lastRebalanced": "2021-09-30T00:00:00.000Z",
+                    "slug": "global-opportunities-SCET_0014",
+                    "investmentStrategy": [],
+                    "micrositeUrl": "https://windmillcapital.smallcase.com/smallcase/SCET_0014",
+                    "stateChange": {
+                        "date": "2021-06-23T12:36:24.843Z",
+                        "publisher": "smallcaseHQ",
+                        "publisherName": "Windmill Capital"
+                    },
+                    "blogURL": "https://blog.smallcase.com/investing-in-the-biggest-us-and-indian-companies/"
+                },
+                "flags": {
+                    "active": true,
+                    "blocked": false,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "SHARES"
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.017050467405268343,
+                        "weekly": 0.012321637012618998,
+                        "monthly": -0.005531329827141077,
+                        "quarterly": 0.0649444802426769,
+                        "halfyearly": 0.164482640442278,
+                        "yearly": 0.4469179659275905,
+                        "threeYear": 0.7647258839966614,
+                        "fiveYear": 0.7647258839966614,
+                        "sinceInception": 9.325116838369551,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 1031.9041109801437,
+                    "unadjustedIndex": 1031.9041109801437,
+                    "divReturns": 0,
+                    "minInvestAmountOverridden": false,
+                    "lastCloseIndex": 1032.5116838369552,
+                    "minInvestAmount": 1712,
+                    "ratios": {
+                        "cagr": 0.15766203807099943,
+                        "momentumRank": 1,
+                        "risk": 1,
+                        "sharpe": 0.536620299598433,
+                        "sharpeRatio": 1.27411389518301,
+                        "52wHigh": 1043.107666027058,
+                        "52wLow": 711.825220572715,
+                        "divYield": 0,
+                        "divYieldDifferential": -1.41,
+                        "largeCapPercentage": 100,
+                        "marketCapCategory": "ETF",
+                        "midCapPercentage": 0,
+                        "smallCapPercentage": 0,
+                        "ema": 1000.4563957595421,
+                        "momentum": -100,
+                        "lastCloseEma": 999.7360522075096,
+                        "riskLabel": "Medium Volatility",
+                        "oneYearLiveHistory": false,
+                        "cagrDuration": "8M"
+                    },
+                    "minSipAmount": 500,
+                    "launchDateIndex": 100
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NIFTY100",
+                    "msg": "Compare with top 100 market cap stocks"
+                },
+                "scid": "SCET_0014",
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 18
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "602697cbbcf25719c152240a",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "userId": "602692d8bcf25719c15223dd",
+                        "name": "Manish Yadav"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "name": "Equity & Debt",
+                    "shortDescription": "A unique 2-in-1 portfolio of equity & debt suitable for low risk wealth creation",
+                    "type": "ETF",
+                    "created": "2006-12-29T00:00:00.000Z",
+                    "uploaded": "2021-02-12T00:00:00.000Z",
+                    "updated": "2021-09-30T00:00:00.000Z",
+                    "publisher": "smallcaseHQ",
+                    "publisherName": "Windmill Capital",
+                    "rebalanceSchedule": "quarterly",
+                    "nextUpdate": "2021-12-30T15:26:14.620Z",
+                    "lastRebalanced": "2021-09-30T00:00:00.000Z",
+                    "slug": "equity-and-debt-SCET_0013",
+                    "investmentStrategy": [],
+                    "micrositeUrl": "https://windmillcapital.smallcase.com/smallcase/SCET_0013",
+                    "stateChange": {
+                        "date": "2021-06-23T12:36:32.713Z",
+                        "publisher": "smallcaseHQ",
+                        "publisherName": "Windmill Capital"
+                    }
+                },
+                "flags": {
+                    "active": true,
+                    "blocked": false,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "SHARES"
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.005468625533827279,
+                        "weekly": 0.008740314272548406,
+                        "monthly": 0.01777754862186925,
+                        "quarterly": 0.08277983650478227,
+                        "halfyearly": 0.1689778127155443,
+                        "yearly": 0.35589162190839396,
+                        "threeYear": 0.6449576994289128,
+                        "fiveYear": 0.6449576994289128,
+                        "sinceInception": 4.411489021090657,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 540.9901102745171,
+                    "unadjustedIndex": 540.9901102745171,
+                    "divReturns": 0,
+                    "minInvestAmountOverridden": false,
+                    "lastCloseIndex": 541.1489021090657,
+                    "minInvestAmount": 3049,
+                    "ratios": {
+                        "52wHigh": 541.8636946356796,
+                        "52wLow": 398.931929827737,
+                        "divYield": 0,
+                        "divYieldDifferential": -1.41,
+                        "largeCapPercentage": 60,
+                        "marketCapCategory": "ETF",
+                        "midCapPercentage": 0,
+                        "smallCapPercentage": 0,
+                        "cagr": 0.14589630434630907,
+                        "momentumRank": 1,
+                        "risk": 1,
+                        "sharpe": 0.527046201143595,
+                        "sharpeRatio": 1.26617537460096,
+                        "ema": 519.7663040334618,
+                        "momentum": -100,
+                        "lastCloseEma": 519.2857962117174,
+                        "riskLabel": "Medium Volatility",
+                        "oneYearLiveHistory": false,
+                        "cagrDuration": "8M"
+                    },
+                    "minSipAmount": 500,
+                    "launchDateIndex": 100
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NIFTY100",
+                    "msg": "Compare with top 100 market cap stocks"
+                },
+                "scid": "SCET_0013",
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 40
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5c3f42e8e212322adf26c128",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "userId": "5ae85e1daaa78b78960ca535",
+                        "name": "Abhishek Jadon"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "created": "2007-06-29T00:00:00.000Z",
+                    "uploaded": "2019-01-16T14:42:48.080Z",
+                    "updated": "2021-09-30T00:00:00.000Z",
+                    "name": "Equity & Gold",
+                    "shortDescription": "Create wealth with equities, stay protected with Gold. The sweet spot",
+                    "type": "ETF",
+                    "publisher": "smallcaseHQ",
+                    "publisherName": "Windmill Capital",
+                    "nextUpdate": "2021-12-30T15:26:05.621Z",
+                    "rebalanceSchedule": "quarterly",
+                    "blogURL": null,
+                    "lastRebalanced": "2021-09-30T00:00:00.000Z",
+                    "slug": "equity-and-gold-SCET_0005",
+                    "micrositeUrl": "https://smallcase.com/smallcase/equity-and-gold-SCET_0005",
+                    "investmentStrategy": [
+                        {
+                            "key": "assetAllocation",
+                            "displayName": "Asset Allocation"
+                        }
+                    ]
+                },
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "SHARES",
+                    "blocked": false
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.006906280005900934,
+                        "weekly": 0.012200670956619485,
+                        "monthly": 0.01444420187183807,
+                        "quarterly": 0.08634030489111631,
+                        "halfyearly": 0.16781000060200255,
+                        "yearly": 0.33231413346419236,
+                        "threeYear": 0.7349060109173089,
+                        "fiveYear": 0.7349060109173089,
+                        "sinceInception": 4.088132348818283,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 509.6439535127427,
+                    "unadjustedIndex": 509.6439535127427,
+                    "divReturns": 0,
+                    "lastCloseIndex": 508.8132348818283,
+                    "minInvestAmount": 273,
+                    "ratios": {
+                        "cagr": 0.20496173153989106,
+                        "momentumRank": 1,
+                        "risk": 0.6495786038718341,
+                        "sharpe": 0.2282547503801482,
+                        "52wHigh": 509.0053370784661,
+                        "52wLow": 381.70189244997357,
+                        "divYield": 0,
+                        "divYieldDifferential": -1.41,
+                        "largeCapPercentage": 70,
+                        "midCapPercentage": 0,
+                        "pe": null,
+                        "peDiscount": null,
+                        "smallCapPercentage": 0,
+                        "ema": 490.51793693846963,
+                        "momentum": -100,
+                        "lastCloseEma": 490.10680664776106,
+                        "sharpeRatio": 1.492856662138622,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Low Volatility",
+                        "cagrDuration": "3Y",
+                        "cagr1y": 0.33231413346419236
+                    },
+                    "minSipAmount": 500,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NIFTY100",
+                    "msg": "As this smallcase mainly consists of large cap stocks"
+                },
+                "scid": "SCET_0005",
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 3
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5c3f423fe212322adf26c125",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "userId": "5ae85e1daaa78b78960ca535",
+                        "name": "Abhishek Jadon"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "created": "2007-06-29T00:00:00.000Z",
+                    "uploaded": "2019-01-21T14:39:59.352Z",
+                    "updated": "2021-09-30T00:00:00.000Z",
+                    "name": "Top 100 Stocks",
+                    "shortDescription": "India's most powerful companies in one portfolio. Solid stability",
+                    "type": "ETF",
+                    "publisher": "smallcaseHQ",
+                    "publisherName": "Windmill Capital",
+                    "blogURL": null,
+                    "nextUpdate": "2021-12-30T15:26:05.936Z",
+                    "rebalanceSchedule": "quarterly",
+                    "lastRebalanced": "2021-09-30T00:00:00.000Z",
+                    "slug": "top-100-stocks-SCET_0004",
+                    "micrositeUrl": "https://smallcase.com/smallcase/top-100-stocks-SCET_0004",
+                    "investmentStrategy": [
+                        {
+                            "key": "assetAllocation",
+                            "displayName": "Asset Allocation"
+                        },
+                        {
+                            "key": "quantitative",
+                            "displayName": "Quantitative"
+                        }
+                    ]
+                },
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "SHARES",
+                    "blocked": false
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.008998637843771392,
+                        "weekly": 0.014357665019717938,
+                        "monthly": 0.02437090176643669,
+                        "quarterly": 0.12541546360946032,
+                        "halfyearly": 0.2737459648520765,
+                        "yearly": 0.5778322700104146,
+                        "threeYear": 0.7825460570079684,
+                        "fiveYear": 0.7825460570079684,
+                        "sinceInception": 4.168492292294604,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 516.974271159832,
+                    "unadjustedIndex": 516.974271159832,
+                    "divReturns": 0,
+                    "lastCloseIndex": 516.8492292294604,
+                    "minInvestAmount": 1222,
+                    "ratios": {
+                        "cagr": 0.21326309622037054,
+                        "risk": 0.8375195355042444,
+                        "sharpe": 0.16080613593944126,
+                        "momentumRank": 1,
+                        "52wHigh": 517.180517838922,
+                        "52wLow": 326.28390175716703,
+                        "divYield": 0,
+                        "divYieldDifferential": -1.41,
+                        "largeCapPercentage": 100,
+                        "midCapPercentage": 0,
+                        "pe": null,
+                        "peDiscount": null,
+                        "smallCapPercentage": 0,
+                        "ema": 490.02806440857216,
+                        "momentum": -100,
+                        "lastCloseEma": 489.4253416038333,
+                        "sharpeRatio": 1.4146564441729248,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Medium Volatility",
+                        "cagrDuration": "3Y",
+                        "cagr1y": 0.5778322700104146
+                    },
+                    "minSipAmount": 500,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NIFTY100",
+                    "msg": "As this smallcase mainly consists of large cap stocks"
+                },
+                "scid": "SCET_0004",
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 16
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5b520fc58e485457d0e82d1b",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Abhishek Jadon",
+                        "userId": "5ae85e1daaa78b78960ca535"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "All Weather Investing",
+                    "name": "All Weather Investing",
+                    "publisher": "smallcaseHQ",
+                    "shortDescription": "One investment for all market conditions. Works for everyone",
+                    "created": "2007-06-29T00:00:00.000Z",
+                    "updated": "2021-09-30T00:00:00.000Z",
+                    "nextUpdate": "2021-12-30T15:26:06.439Z",
+                    "blogURL": "https://blog.smallcase.com/introducing-all-weather-investing/",
+                    "uploaded": "2018-07-16T14:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisherName": "Windmill Capital",
+                    "lastRebalanced": "2021-09-30T00:00:00.000Z",
+                    "slug": "all-weather-investing-SCAW_0001",
+                    "micrositeUrl": "https://smallcase.com/smallcase/all-weather-investing-SCAW_0001",
+                    "investmentStrategy": [
+                        {
+                            "key": "assetAllocation",
+                            "displayName": "Asset Allocation"
+                        },
+                        {
+                            "key": "quantitative",
+                            "displayName": "Quantitative"
+                        }
+                    ]
+                },
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "SHARES",
+                    "blocked": false
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.0030217759003535725,
+                        "weekly": 0.008778051494137669,
+                        "monthly": 0.0034000865221330057,
+                        "quarterly": 0.044841462785741186,
+                        "halfyearly": 0.1013188520467642,
+                        "yearly": 0.205753223169921,
+                        "threeYear": 0.5049903017718125,
+                        "fiveYear": 0.5049903017718125,
+                        "sinceInception": 3.7683677386170324,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 476.80012069911686,
+                    "unadjustedIndex": 476.80012069911686,
+                    "recommendedBuyAmount": 0,
+                    "divReturns": 0,
+                    "minInvestAmount": 3446,
+                    "lastCloseIndex": 476.83677386170325,
+                    "ratios": {
+                        "risk": 0.3965057809366105,
+                        "cagr": 0.13565227786833867,
+                        "sharpe": 0.6571442717443978,
+                        "momentumRank": 1,
+                        "ema": 467.50538600827394,
+                        "lastCloseEma": 467.29569189928634,
+                        "52wHigh": 478.6123962777241,
+                        "52wLow": 395.46796533381934,
+                        "divYield": 0,
+                        "divYieldDifferential": -1.41,
+                        "largeCapPercentage": 27.242948600000005,
+                        "midCapPercentage": 0,
+                        "momentum": -100,
+                        "smallCapPercentage": 0,
+                        "pb": null,
+                        "pbDiscount": null,
+                        "pe": null,
+                        "peDiscount": null,
+                        "sharpeRatio": 1.7451017074015844,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Low Volatility",
+                        "cagrDuration": "3Y",
+                        "cagr1y": 0.20575322316992106,
+                        "cagr3y": 0.5049903017718125
+                    },
+                    "minSipAmount": 500,
+                    "minInvestAmountOverridden": false,
+                    "launchDateIndex": 100
+                },
+                "scid": "SCAW_0001",
+                "benchmark": {
+                    "id": ".NIFSMCP100",
+                    "message": "As this smallcase mainly consists of small cap stocks",
+                    "index": ".NIFTY100",
+                    "msg": "As this smallcase mainly consists of large cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 2
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5a33f3276b417d61c2f2b799",
+                "scid": "SCTR_0011",
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "SHARES",
+                    "blocked": false
+                },
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Naveen K R",
+                        "userId": "5aec02e63e13c16f05e46272"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Sector Trackers",
+                    "name": "Insurance Tracker",
+                    "shortDescription": "Companies to efficiently track and invest in the insurance sector",
+                    "created": "2017-11-17T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:08.829Z",
+                    "blogURL": "https://blog.smallcase.com/investing-in-indias-insurance-growth/",
+                    "uploaded": "2017-12-18T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "insurance-tracker-SCTR_0011",
+                    "micrositeUrl": "https://smallcase.com/smallcase/insurance-tracker-SCTR_0011",
+                    "investmentStrategy": [
+                        {
+                            "key": "sectorTracker",
+                            "displayName": "Sector Tracker"
+                        },
+                        {
+                            "key": "quantamental",
+                            "displayName": "Quantamental"
+                        }
+                    ]
+                },
+                "stats": {
+                    "indexValue": 127.67891723114477,
+                    "minInvestAmount": 5945,
+                    "returns": {
+                        "daily": 0.001810623291093888,
+                        "weekly": -0.001697250469145957,
+                        "monthly": -0.020961247721735125,
+                        "quarterly": 0.06079469125787584,
+                        "halfyearly": 0.21554814447533413,
+                        "yearly": 0.35514924280317184,
+                        "threeYear": 0.528237974936602,
+                        "fiveYear": 0.528237974936602,
+                        "sinceInception": 0.29191594042898006,
+                        "sinceLaunch": 0
+                    },
+                    "unadjustedIndex": 127.67891723114477,
+                    "lastCloseIndex": 129.191594042898,
+                    "ratios": {
+                        "52wHigh": 132.81971251980823,
+                        "52wLow": 91.37077107861532,
+                        "divYield": 0.2907486080653157,
+                        "divYieldDifferential": -1.1192513919346843,
+                        "largeCapPercentage": 92.99999998999999,
+                        "midCapPercentage": 7.000000000000001,
+                        "pb": 7.098521231582392,
+                        "pbDiscount": 68.16637325982362,
+                        "pe": 60.837088206124555,
+                        "peDiscount": 127.65602314884812,
+                        "ema": 126.40080479705706,
+                        "lastCloseEma": 126.33809043200539,
+                        "momentumRank": 571,
+                        "smallCapPercentage": 0,
+                        "momentum": 2.258624933411002,
+                        "cagr": 0.06714736452622172,
+                        "risk": 1.2649495130872233,
+                        "marketCapCategory": "Large cap",
+                        "sharpe": -0.3451185688791132,
+                        "sharpeRatio": 0.6015376963835766,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Medium Volatility",
+                        "cagrDuration": "4Y",
+                        "cagr1y": 0.35514924280317195,
+                        "cagr3y": 0.528237974936602
+                    },
+                    "divReturns": 0.15186456405199006,
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NIFTY100",
+                    "msg": "Compare with top 100 market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 51
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5a0b0604f86b54456739e5c0",
+                "scid": "SCNM_0025",
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "NONE",
+                    "blocked": false
+                },
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Naveen K R",
+                        "userId": "5aec02e63e13c16f05e46272"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Thematic",
+                    "name": "Electric Mobility",
+                    "shortDescription": "Companies driving India's transition to electric vehicles. Transport's new era",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:13.125Z",
+                    "blogURL": "https://blog.smallcase.com/the-charge-of-electric-vehicles/",
+                    "uploaded": "2017-11-15T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "electric-mobility-SCNM_0025",
+                    "micrositeUrl": "https://smallcase.com/smallcase/electric-mobility-SCNM_0025",
+                    "investmentStrategy": [
+                        {
+                            "key": "thematic",
+                            "displayName": "Thematic"
+                        },
+                        {
+                            "key": "fundamental",
+                            "displayName": "Fundamental"
+                        },
+                        {
+                            "key": "esg",
+                            "displayName": "ESG"
+                        }
+                    ]
+                },
+                "stats": {
+                    "indexValue": 530.0822680038405,
+                    "minInvestAmount": 65400,
+                    "returns": {
+                        "daily": 0.01933957950461906,
+                        "weekly": 0.04602718721428242,
+                        "monthly": 0.11545425944088414,
+                        "quarterly": 0.1553781492988865,
+                        "halfyearly": 0.3851559021735166,
+                        "yearly": 0.8493974624463874,
+                        "threeYear": 0.36961614839015133,
+                        "fiveYear": 0.36961614839015133,
+                        "sinceInception": 4.294378707062569,
+                        "sinceLaunch": 0
+                    },
+                    "unadjustedIndex": 530.0822680038405,
+                    "lastCloseIndex": 529.437870706257,
+                    "ratios": {
+                        "52wHigh": 529.437870706257,
+                        "52wLow": 272.7277268477758,
+                        "divYield": 1.885777594847831,
+                        "divYieldDifferential": 0.4757775948478311,
+                        "largeCapPercentage": 49.36363636200001,
+                        "midCapPercentage": 25.954545453999998,
+                        "pb": 3.087314772748045,
+                        "pbDiscount": -26.86046691885714,
+                        "pe": 25.087162648650516,
+                        "peDiscount": -6.122336734302469,
+                        "ema": 477.4006530525614,
+                        "lastCloseEma": 476.23127737538664,
+                        "momentumRank": 1707,
+                        "risk": 1.1171740860370498,
+                        "smallCapPercentage": 24.681818181000004,
+                        "cagr": 0.04024457980079399,
+                        "sharpe": -0.06924179005939868,
+                        "momentum": 11.172427318109657,
+                        "marketCapCategory": "Multi cap",
+                        "sharpeRatio": 0.8340207146490584,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Medium Volatility",
+                        "cagrDuration": "4Y",
+                        "cagr1y": 0.8493974624463874,
+                        "cagr3y": 0.3696161483901512
+                    },
+                    "divReturns": 1.071571680315784,
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "benchmark": {
+                    "id": ".NIFMDCP100",
+                    "message": "As this smallcase mainly consists of mid cap stocks",
+                    "index": ".NIFTY500",
+                    "msg": "Compare with top 500 market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 9
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "589760a9ca06277c54a5d908",
+                "scid": "SCNM_0024",
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "WEIGHTS",
+                    "blocked": false
+                },
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Abhishek Jadon",
+                        "userId": "5ae85e1daaa78b78960ca535"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Thematic",
+                    "name": "Affordable Housing",
+                    "shortDescription": "Companies participating in and benefiting from affordable housing projects ",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:06.472Z",
+                    "blogURL": "https://blog.smallcase.com/the-affordable-housing-opportunity/",
+                    "uploaded": "2017-02-06T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "affordable-housing-SCNM_0024",
+                    "micrositeUrl": "https://smallcase.com/smallcase/affordable-housing-SCNM_0024",
+                    "investmentStrategy": [
+                        {
+                            "key": "thematic",
+                            "displayName": "Thematic"
+                        },
+                        {
+                            "key": "fundamental",
+                            "displayName": "Fundamental"
+                        }
+                    ]
+                },
+                "stats": {
+                    "indexValue": 534.1554756054725,
+                    "minInvestAmount": 38655,
+                    "returns": {
+                        "daily": 0.013291033310677288,
+                        "weekly": 0.021466754318292418,
+                        "monthly": 0.014682504282896,
+                        "quarterly": 0.1193395303301673,
+                        "halfyearly": 0.3127023702540987,
+                        "yearly": 0.8604761298790091,
+                        "threeYear": 1.208879495569761,
+                        "fiveYear": 1.208879495569761,
+                        "sinceInception": 4.26880031558038,
+                        "sinceLaunch": 0
+                    },
+                    "unadjustedIndex": 534.1554756054725,
+                    "lastCloseIndex": 526.880031558038,
+                    "ratios": {
+                        "52wHigh": 529.7448617274562,
+                        "52wLow": 282.0133176735554,
+                        "divYield": 1.16081008501309,
+                        "divYieldDifferential": -0.2491899149869099,
+                        "largeCapPercentage": 24.999999999000003,
+                        "midCapPercentage": 41.66666666500001,
+                        "pb": 6.038048477874285,
+                        "pbDiscount": 43.043414390797864,
+                        "pe": 35.42407375034387,
+                        "peDiscount": 32.559002929448596,
+                        "ema": 496.67656999532386,
+                        "lastCloseEma": 495.9978405222577,
+                        "momentumRank": 1077,
+                        "risk": 1.1840517625149376,
+                        "smallCapPercentage": 33.333333332,
+                        "cagr": 0.19403066481217723,
+                        "sharpe": 0.231291126685083,
+                        "momentum": 6.226275300566453,
+                        "marketCapCategory": "Mid cap",
+                        "sharpeRatio": 1.159812555328782,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Medium Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.8604761298790091,
+                        "cagr3y": 1.2088794955697608
+                    },
+                    "divReturns": 2.3904176869609777,
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "benchmark": {
+                    "id": ".NIFMDCP100",
+                    "message": "As this smallcase mainly consists of mid cap stocks",
+                    "index": ".NIMI400",
+                    "msg": "Compare with 101st - 500th market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 76
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "58724f43139b40656ee201b9",
+                "scid": "SCMO_0026",
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "WEIGHTS",
+                    "blocked": false
+                },
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Abhishek Jadon",
+                        "userId": "5ae85e1daaa78b78960ca535"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Model-based",
+                    "name": "Growth & Income",
+                    "shortDescription": "Efficiently managed dividend paying companies screened using Kevin Matras' criteria",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:15.023Z",
+                    "blogURL": null,
+                    "uploaded": "2017-01-06T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "growth-and-income-SCMO_0026",
+                    "micrositeUrl": "https://smallcase.com/smallcase/growth-and-income-SCMO_0026",
+                    "investmentStrategy": [
+                        {
+                            "key": "growth",
+                            "displayName": "Growth"
+                        },
+                        {
+                            "key": "dividend",
+                            "displayName": "Dividend"
+                        },
+                        {
+                            "key": "quality",
+                            "displayName": "Quality"
+                        }
+                    ]
+                },
+                "stats": {
+                    "indexValue": 1227.9924373623148,
+                    "minInvestAmount": 36601,
+                    "returns": {
+                        "daily": 0.022492982303462413,
+                        "weekly": 0.02914294885780239,
+                        "monthly": 0.05278811869577378,
+                        "quarterly": 0.11667612560783434,
+                        "halfyearly": 0.36313573017706724,
+                        "yearly": 0.8864921442637762,
+                        "threeYear": 1.2020197663244563,
+                        "fiveYear": 1.2020197663244563,
+                        "sinceInception": 11.225041367109759,
+                        "sinceLaunch": 0
+                    },
+                    "unadjustedIndex": 1227.9924373623148,
+                    "lastCloseIndex": 1222.504136710976,
+                    "divReturns": 1.5000602295048053,
+                    "ratios": {
+                        "52wHigh": 1222.504136710976,
+                        "52wLow": 643.1598251820191,
+                        "divYield": 1.853176833127624,
+                        "divYieldDifferential": 0.443176833127624,
+                        "largeCapPercentage": 13.333333334,
+                        "midCapPercentage": 20.000000001,
+                        "pb": 2.4774954680181747,
+                        "pbDiscount": -41.307292880859514,
+                        "pe": 15.761295831953284,
+                        "peDiscount": -41.02028820613779,
+                        "ema": 1139.4935584300727,
+                        "lastCloseEma": 1137.6281521772655,
+                        "momentumRank": 1286,
+                        "risk": 1.2599651411646713,
+                        "smallCapPercentage": 66.66666667,
+                        "cagr": 0.2568674948696119,
+                        "sharpe": 0.22971001035368044,
+                        "momentum": 7.460784472612536,
+                        "marketCapCategory": "Small cap",
+                        "sharpeRatio": 1.2164752880504843,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Medium Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.8864921442637763,
+                        "cagr3y": 1.2020197663244563
+                    },
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "benchmark": {
+                    "id": ".NIFMDCP100",
+                    "message": "As this smallcase mainly consists of mid cap stocks",
+                    "index": ".NIFSMCP100",
+                    "msg": "Compare with 251st - 350th market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 31
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "585ffdf4922d7f191b41561f",
+                "scid": "SCMO_0024",
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "NONE",
+                    "blocked": false
+                },
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Naveen K R",
+                        "userId": "5aec02e63e13c16f05e46272"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "rebalanceSchedule": "annual",
+                    "uploaded": "2016-12-26T00:00:00.000Z",
+                    "blogURL": null,
+                    "nextUpdate": "2022-06-16T15:26:07.958Z",
+                    "updated": "2021-06-16T00:00:00.000Z",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "shortDescription": "Companies in which PE and VC firms have high shareholding",
+                    "name": "The PE List",
+                    "type": "Model-based",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-06-16T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "the-pe-list-SCMO_0024",
+                    "micrositeUrl": "https://smallcase.com/smallcase/the-pe-list-SCMO_0024",
+                    "investmentStrategy": [
+                        {
+                            "key": "fundamental",
+                            "displayName": "Fundamental"
+                        }
+                    ]
+                },
+                "stats": {
+                    "indexValue": 818.7171329395816,
+                    "minInvestAmount": 56234,
+                    "returns": {
+                        "daily": 0.010941929325970096,
+                        "weekly": 0.02563855893049712,
+                        "monthly": 0.01825370452477149,
+                        "quarterly": 0.025538461435984473,
+                        "halfyearly": 0.1731432630448877,
+                        "yearly": 0.654823561146515,
+                        "threeYear": 0.8857700278977518,
+                        "fiveYear": 0.8857700278977518,
+                        "sinceInception": 7.079535956575016,
+                        "sinceLaunch": 0
+                    },
+                    "unadjustedIndex": 818.7171329395816,
+                    "lastCloseIndex": 807.9535956575016,
+                    "ratios": {
+                        "52wHigh": 808.2847475076542,
+                        "52wLow": 471.00475052726443,
+                        "divYield": 0.9018200733287912,
+                        "divYieldDifferential": -0.5081799266712087,
+                        "largeCapPercentage": 6.29,
+                        "midCapPercentage": 49.68,
+                        "pb": 3.98622640873478,
+                        "pbDiscount": -5.564945672491007,
+                        "pe": 25.390973831679442,
+                        "peDiscount": -4.985457114387504,
+                        "ema": 780.7970423752254,
+                        "lastCloseEma": 780.1867827511322,
+                        "momentumRank": 709,
+                        "risk": 1.277730846825393,
+                        "smallCapPercentage": 44.03,
+                        "cagr": 0.262817335652467,
+                        "sharpe": 0.23151825370736212,
+                        "momentum": 3.5589955534053974,
+                        "marketCapCategory": "Mid cap",
+                        "sharpeRatio": 1.247377308142604,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Medium Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.654823561146515,
+                        "cagr3y": 0.8857700278977518
+                    },
+                    "divReturns": 0.6594882905022823,
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "benchmark": {
+                    "id": ".NIFMDCP100",
+                    "message": "As this smallcase mainly consists of mid cap stocks",
+                    "index": ".NIMI400",
+                    "msg": "Compare with 101st - 500th market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 50
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "57dea6bf3498ac6143d5cd97",
+                "scid": "SCMO_0016",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Abhishek Jadon",
+                        "userId": "5ae85e1daaa78b78960ca535"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Model-based",
+                    "name": "The Naked Trader",
+                    "shortDescription": "Low-debt companies showing healthy growth. Criteria set by top trader Robbie Burns",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:13.674Z",
+                    "blogURL": null,
+                    "uploaded": "2016-09-19T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "the-naked-trader-SCMO_0016",
+                    "micrositeUrl": "https://smallcase.com/smallcase/the-naked-trader-SCMO_0016",
+                    "investmentStrategy": [
+                        {
+                            "key": "growth",
+                            "displayName": "Growth"
+                        },
+                        {
+                            "key": "value",
+                            "displayName": "Value"
+                        },
+                        {
+                            "key": "technical",
+                            "displayName": "Technical"
+                        }
+                    ]
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.02119402414368574,
+                        "weekly": 0.03265653039098493,
+                        "monthly": 0.04116787781801622,
+                        "quarterly": 0.00740192568323484,
+                        "halfyearly": 0.31054415975273447,
+                        "yearly": 0.7990690144951966,
+                        "threeYear": 1.0160028607944211,
+                        "fiveYear": 1.0160028607944211,
+                        "sinceInception": 9.812114583476536,
+                        "sinceLaunch": 0
+                    },
+                    "lastCloseIndex": 1081.2114583476537,
+                    "divReturns": 1.8031092620569342,
+                    "unadjustedIndex": 1085.7869043184328,
+                    "indexValue": 1085.7869043184328,
+                    "minInvestAmount": 19310,
+                    "ratios": {
+                        "52wHigh": 1112.8409631497595,
+                        "52wLow": 585.467773939384,
+                        "divYield": 2.337959994623313,
+                        "divYieldDifferential": 0.9279599946233132,
+                        "largeCapPercentage": 0,
+                        "midCapPercentage": 18.181818182,
+                        "pb": 2.725327503539474,
+                        "pbDiscount": -35.43606798323021,
+                        "pe": 14.492891781428357,
+                        "peDiscount": -45.76673203510667,
+                        "ema": 1036.7507636821213,
+                        "lastCloseEma": 1035.7516469484372,
+                        "momentumRank": 796,
+                        "risk": 1.2515173408299805,
+                        "smallCapPercentage": 81.818181819,
+                        "cagr": 0.2327430779492783,
+                        "sharpe": 0.29283429874021016,
+                        "momentum": 4.389064843213286,
+                        "marketCapCategory": "Small cap",
+                        "sharpeRatio": 1.4153942254777314,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Medium Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.7990690144951966,
+                        "cagr3y": 1.016002860794421,
+                        "cagr5y": 1.7542578417252233
+                    },
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "WEIGHTS",
+                    "blocked": false
+                },
+                "benchmark": {
+                    "id": ".NIFMDCP100",
+                    "message": "As this smallcase mainly consists of mid cap stocks",
+                    "index": ".NIFSMCP100",
+                    "msg": "Compare with 251st - 350th market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 26
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5793c0173c4623286f7ff0ff",
+                "scid": "SCMO_0015",
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "WEIGHTS",
+                    "blocked": false
+                },
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Manish Yadav",
+                        "userId": "602692d8bcf25719c15223dd"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Model-based",
+                    "name": "Safe Haven",
+                    "shortDescription": "Low beta stocks that are rated ‘BUY’, to help protect against market volatility",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:07.747Z",
+                    "blogURL": null,
+                    "uploaded": "2016-07-25T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "safe-haven-SCMO_0015",
+                    "micrositeUrl": "https://smallcase.com/smallcase/safe-haven-SCMO_0015",
+                    "investmentStrategy": [
+                        {
+                            "key": "fundamental",
+                            "displayName": "Fundamental"
+                        },
+                        {
+                            "key": "technical",
+                            "displayName": "Technical"
+                        }
+                    ]
+                },
+                "stats": {
+                    "lastCloseIndex": 488.0564871730432,
+                    "divReturns": 1.6253325811387092,
+                    "unadjustedIndex": 490.4422867536313,
+                    "indexValue": 490.4422867536313,
+                    "returns": {
+                        "daily": 0.007490073815504897,
+                        "weekly": 0.020001480730910404,
+                        "monthly": 0.006205881766330318,
+                        "quarterly": 0.08245973745939224,
+                        "halfyearly": 0.31590447354548085,
+                        "yearly": 0.46070668043402785,
+                        "threeYear": 0.8839891581480824,
+                        "fiveYear": 0.8839891581480824,
+                        "sinceInception": 3.880564871730432,
+                        "sinceLaunch": 0
+                    },
+                    "minInvestAmount": 24217,
+                    "ratios": {
+                        "52wHigh": 502.4975117398177,
+                        "52wLow": 319.0404242375218,
+                        "divYield": 1.4334092513943968,
+                        "divYieldDifferential": 0.02340925139439687,
+                        "largeCapPercentage": 37.86,
+                        "midCapPercentage": 37.29,
+                        "pb": 6.699066836956936,
+                        "pbDiscount": 58.7031632988545,
+                        "pe": 35.90927562921134,
+                        "peDiscount": 34.374657383407126,
+                        "ema": 471.8512078193525,
+                        "lastCloseEma": 471.4870442385066,
+                        "momentumRank": 691,
+                        "risk": 0.9825373544230699,
+                        "smallCapPercentage": 24.85,
+                        "cagr": 0.20666421230469822,
+                        "sharpe": 0.23047091443126533,
+                        "momentum": 3.5142944301465917,
+                        "marketCapCategory": "Mid cap",
+                        "sharpeRatio": 1.3609311038551513,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Medium Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.46070668043402785,
+                        "cagr3y": 0.8839891581480825,
+                        "cagr5y": 1.6085328015662386
+                    },
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NILM250",
+                    "msg": "Compare with top 250 market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 10
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5704fb528cedad2432b3ca7a",
+                "scid": "SCTR_0010",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Manu Rathi",
+                        "userId": "60269374bcf25719c15223de"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Sector Trackers",
+                    "name": "Realty Tracker",
+                    "shortDescription": "Companies to efficiently track and invest in the realty sector",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:14.213Z",
+                    "blogURL": "https://blog.smallcase.com/what-are-smallcase-sector-trackers/",
+                    "uploaded": "2016-04-04T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "realty-tracker-SCTR_0010",
+                    "micrositeUrl": "https://smallcase.com/smallcase/realty-tracker-SCTR_0010",
+                    "investmentStrategy": [
+                        {
+                            "key": "sectorTracker",
+                            "displayName": "Sector Tracker"
+                        },
+                        {
+                            "key": "quantamental",
+                            "displayName": "Quantamental"
+                        }
+                    ]
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.0691854230060771,
+                        "weekly": 0.05092984690179313,
+                        "monthly": 0.25188769762117197,
+                        "quarterly": 0.44968609849940555,
+                        "halfyearly": 0.7329910102630852,
+                        "yearly": 1.3276774077985056,
+                        "threeYear": 1.3770629553168676,
+                        "fiveYear": 1.3770629553168676,
+                        "sinceInception": 3.851636820190734,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 472.4562144840164,
+                    "unadjustedIndex": 472.4562144840164,
+                    "lastCloseIndex": 485.1636820190734,
+                    "divReturns": 0.3974820336368565,
+                    "minInvestAmount": 17018,
+                    "ratios": {
+                        "52wHigh": 485.1636820190734,
+                        "52wLow": 203.57380183801567,
+                        "divYield": 0.19023893578843856,
+                        "divYieldDifferential": -1.2197610642115613,
+                        "largeCapPercentage": 26.75929568,
+                        "midCapPercentage": 32.17901471,
+                        "pb": 3.5935128400284775,
+                        "pbDiscount": -14.868463183354274,
+                        "pe": 180.3299268221795,
+                        "peDiscount": 574.805372932482,
+                        "ema": 386.4983355950842,
+                        "lastCloseEma": 384.28113679986694,
+                        "momentumRank": 1947,
+                        "risk": 1.6187611568194193,
+                        "smallCapPercentage": 41.061689599999994,
+                        "cagr": 0.28907147422788193,
+                        "sharpe": 0.058028759316186784,
+                        "momentum": 26.25227614847667,
+                        "marketCapCategory": "Mid cap",
+                        "sharpeRatio": 1.2163204516136084,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "High Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 1.3276774077985056,
+                        "cagr3y": 1.3770629553168674,
+                        "cagr5y": 1.894080661053886
+                    },
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "WEIGHTS",
+                    "blocked": false
+                },
+                "benchmark": {
+                    "id": ".NIFMDCP100",
+                    "message": "As this smallcase mainly consists of mid cap stocks",
+                    "index": ".NIMI400",
+                    "msg": "Compare with 101st - 500th market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 30
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5704fb528cedad2432b3ca79",
+                "scid": "SCTR_0009",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Manish Yadav",
+                        "userId": "602692d8bcf25719c15223dd"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Sector Trackers",
+                    "name": "Pharma Tracker",
+                    "shortDescription": "Companies to efficiently track and invest in the pharma sector",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:03.877Z",
+                    "blogURL": "https://blog.smallcase.com/what-are-smallcase-sector-trackers/",
+                    "uploaded": "2016-04-04T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "pharma-tracker-SCTR_0009",
+                    "micrositeUrl": "https://smallcase.com/smallcase/pharma-tracker-SCTR_0009",
+                    "investmentStrategy": [
+                        {
+                            "key": "sectorTracker",
+                            "displayName": "Sector Tracker"
+                        },
+                        {
+                            "key": "quantamental",
+                            "displayName": "Quantamental"
+                        }
+                    ]
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.008395228507560451,
+                        "weekly": 0.002080519360416007,
+                        "monthly": 0.00035510568231356224,
+                        "quarterly": 0.05567596174506001,
+                        "halfyearly": 0.21656648001974013,
+                        "yearly": 0.3134329433944486,
+                        "threeYear": 1.2034621040700817,
+                        "fiveYear": 1.2034621040700817,
+                        "sinceInception": 2.7174565831309336,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 370.5996975186994,
+                    "unadjustedIndex": 370.5996975186994,
+                    "lastCloseIndex": 371.7456583130934,
+                    "divReturns": 0.34382981526698,
+                    "minInvestAmount": 41038,
+                    "ratios": {
+                        "52wHigh": 376.28756622558564,
+                        "52wLow": 274.8847866033146,
+                        "divYield": 0.505505990092886,
+                        "divYieldDifferential": -0.9044940099071139,
+                        "largeCapPercentage": 36.3,
+                        "midCapPercentage": 42.02,
+                        "pb": 6.716509756497357,
+                        "pbDiscount": 59.116391973176775,
+                        "pe": 36.500121193406095,
+                        "peDiscount": 36.585636827130294,
+                        "ema": 363.3859242268802,
+                        "lastCloseEma": 363.1980650340017,
+                        "momentumRank": 581,
+                        "risk": 1.0694009270856197,
+                        "smallCapPercentage": 21.68,
+                        "cagr": 0.1551480402862564,
+                        "sharpe": -0.16680676943414952,
+                        "momentum": 2.3534247844331224,
+                        "marketCapCategory": "Mid cap",
+                        "sharpeRatio": 0.9578472773634672,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Medium Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.3134329433944487,
+                        "cagr3y": 1.203462104070082,
+                        "cagr5y": 0.823265772294342
+                    },
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "WEIGHTS",
+                    "blocked": false
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NILM250",
+                    "msg": "Compare with top 250 market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 52
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5704fb528cedad2432b3ca78",
+                "scid": "SCTR_0008",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Manu Rathi",
+                        "userId": "60269374bcf25719c15223de"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Sector Trackers",
+                    "name": "Metal Tracker",
+                    "shortDescription": "Companies to efficiently track and invest in the metal sector",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:12.745Z",
+                    "blogURL": "https://blog.smallcase.com/what-are-smallcase-sector-trackers/",
+                    "uploaded": "2016-04-04T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "metal-tracker-SCTR_0008",
+                    "micrositeUrl": "https://smallcase.com/smallcase/metal-tracker-SCTR_0008",
+                    "investmentStrategy": [
+                        {
+                            "key": "sectorTracker",
+                            "displayName": "Sector Tracker"
+                        },
+                        {
+                            "key": "quantamental",
+                            "displayName": "Quantamental"
+                        }
+                    ]
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.011179595555699534,
+                        "weekly": 0.024518355370380218,
+                        "monthly": -0.005395663541068065,
+                        "quarterly": -0.0007294700504310148,
+                        "halfyearly": 0.29074529333108456,
+                        "yearly": 0.9518693920798683,
+                        "threeYear": 0.48529758033869796,
+                        "fiveYear": 0.48529758033869796,
+                        "sinceInception": 1.1682824428801148,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 217.36764105455077,
+                    "unadjustedIndex": 217.36764105455077,
+                    "lastCloseIndex": 216.8282442880115,
+                    "divReturns": 0.43087071847965003,
+                    "minInvestAmount": 12393,
+                    "ratios": {
+                        "52wHigh": 232.66441593634974,
+                        "52wLow": 107.45861566708795,
+                        "divYield": 3.064465974530349,
+                        "divYieldDifferential": 1.6544659745303492,
+                        "largeCapPercentage": 36.03792757,
+                        "midCapPercentage": 20.652176644999997,
+                        "pb": 2.0889124636378145,
+                        "pbDiscount": -50.512955923228745,
+                        "pe": 16.140648717420774,
+                        "peDiscount": -39.60072701703283,
+                        "ema": 213.25808825584096,
+                        "lastCloseEma": 213.17786003042886,
+                        "momentumRank": 537,
+                        "risk": 1.613698630672589,
+                        "smallCapPercentage": 43.30989579,
+                        "cagr": 0.18436466038225952,
+                        "sharpe": -0.18860456922282953,
+                        "momentum": 1.7123655604111887,
+                        "marketCapCategory": "Multi cap",
+                        "sharpeRatio": 0.9327883085502887,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "High Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.9518693920798682,
+                        "cagr3y": 0.4852975803386981,
+                        "cagr5y": 0.8669557799897665
+                    },
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "WEIGHTS",
+                    "blocked": false
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NIFTY500",
+                    "msg": "Compare with top 500 market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 38
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5704fb528cedad2432b3ca76",
+                "scid": "SCTR_0006",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Manish Yadav",
+                        "userId": "602692d8bcf25719c15223dd"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Sector Trackers",
+                    "name": "IT Tracker",
+                    "shortDescription": "Companies to efficiently track and invest in the IT sector",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:05.492Z",
+                    "blogURL": "https://blog.smallcase.com/indias-it-sector-a-deep-dive/",
+                    "uploaded": "2016-04-04T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "it-tracker-SCTR_0006",
+                    "micrositeUrl": "https://smallcase.com/smallcase/it-tracker-SCTR_0006",
+                    "investmentStrategy": [
+                        {
+                            "key": "sectorTracker",
+                            "displayName": "Sector Tracker"
+                        },
+                        {
+                            "key": "quantamental",
+                            "displayName": "Quantamental"
+                        }
+                    ]
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.019811752546823776,
+                        "weekly": 0.02446633047510946,
+                        "monthly": 0.029822873827563656,
+                        "quarterly": 0.27808907116192266,
+                        "halfyearly": 0.44855827296167,
+                        "yearly": 0.8992589817794412,
+                        "threeYear": 1.689695253253964,
+                        "fiveYear": 1.689695253253964,
+                        "sinceInception": 3.769818988861388,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 488.72837324786036,
+                    "unadjustedIndex": 488.72837324786036,
+                    "lastCloseIndex": 476.9818988861388,
+                    "divReturns": 0.8491969410394643,
+                    "minInvestAmount": 100018,
+                    "ratios": {
+                        "52wHigh": 491.61385472353237,
+                        "52wLow": 248.19117988990746,
+                        "divYield": 1.6878039534386677,
+                        "divYieldDifferential": 0.2778039534386678,
+                        "largeCapPercentage": 69.68062984699999,
+                        "midCapPercentage": 30.31937015,
+                        "pb": 8.103077165550268,
+                        "pbDiscount": 91.96464372218503,
+                        "pe": 37.08879210964977,
+                        "peDiscount": 38.78847860814001,
+                        "ema": 439.7389725824823,
+                        "lastCloseEma": 438.9020528905776,
+                        "momentumRank": 1435,
+                        "risk": 1.13881263520934,
+                        "smallCapPercentage": 0,
+                        "cagr": 0.3034310701326286,
+                        "sharpe": 0.7415090667855027,
+                        "momentum": 8.676160374454867,
+                        "marketCapCategory": "Large cap",
+                        "sharpeRatio": 2.0020562540953697,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Medium Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.8992589817794412,
+                        "cagr3y": 1.689695253253964,
+                        "cagr5y": 3.8656727418763523
+                    },
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "NONE",
+                    "blocked": false
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NIFTY100",
+                    "msg": "Compare with top 100 market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 22
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5704fb528cedad2432b3ca75",
+                "scid": "SCTR_0005",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Manu Rathi",
+                        "userId": "60269374bcf25719c15223de"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Sector Trackers",
+                    "name": "Infra Tracker",
+                    "shortDescription": "Companies to efficiently track and invest in the infrastructure sector",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:11.779Z",
+                    "blogURL": "https://blog.smallcase.com/what-are-smallcase-sector-trackers/",
+                    "uploaded": "2016-04-04T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "infra-tracker-SCTR_0005",
+                    "micrositeUrl": "https://smallcase.com/smallcase/infra-tracker-SCTR_0005",
+                    "investmentStrategy": [
+                        {
+                            "key": "sectorTracker",
+                            "displayName": "Sector Tracker"
+                        },
+                        {
+                            "key": "quantamental",
+                            "displayName": "Quantamental"
+                        }
+                    ]
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.0031563122296552233,
+                        "weekly": 0.0005030838158906733,
+                        "monthly": -0.0011181586560281955,
+                        "quarterly": 0.10106539999592509,
+                        "halfyearly": 0.2951536671796623,
+                        "yearly": 0.8163074022037625,
+                        "threeYear": 0.9742121654826815,
+                        "fiveYear": 0.9742121654826815,
+                        "sinceInception": 2.1637060884696804,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 319.4590777704242,
+                    "unadjustedIndex": 319.4590777704242,
+                    "lastCloseIndex": 316.370608846968,
+                    "divReturns": 0.1380102854482621,
+                    "minInvestAmount": 26451,
+                    "ratios": {
+                        "52wHigh": 320.0721964699581,
+                        "52wLow": 171.50150044881056,
+                        "divYield": 1.7551689337243381,
+                        "divYieldDifferential": 0.3451689337243382,
+                        "largeCapPercentage": 23.72594254,
+                        "midCapPercentage": 20.24354734,
+                        "pb": 3.486609475513822,
+                        "pbDiscount": -17.401040112154263,
+                        "pe": 24.23114560637828,
+                        "peDiscount": -9.325603710707785,
+                        "ema": 301.64131872962014,
+                        "lastCloseEma": 301.3103234462078,
+                        "momentumRank": 899,
+                        "risk": 1.3062517738807427,
+                        "smallCapPercentage": 56.030510124,
+                        "cagr": 0.1677679941509378,
+                        "sharpe": -0.024704083672713373,
+                        "momentum": 4.998263991923557,
+                        "marketCapCategory": "Small cap",
+                        "sharpeRatio": 1.1212099472332033,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "High Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.8163074022037626,
+                        "cagr3y": 0.9742121654826816,
+                        "cagr5y": 1.0162552345100249
+                    },
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "WEIGHTS",
+                    "blocked": false
+                },
+                "benchmark": {
+                    "id": ".NIFSMCP100",
+                    "message": "As this smallcase mainly consists of small cap stocks",
+                    "index": ".NIFSMCP100",
+                    "msg": "Compare with 251st - 350th market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 71
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5704fb528cedad2432b3ca74",
+                "scid": "SCTR_0004",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Naveen K R",
+                        "userId": "5aec02e63e13c16f05e46272"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Sector Trackers",
+                    "name": "FMCG Tracker",
+                    "shortDescription": "Companies to efficiently track and invest in the FMCG sector ",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:10.428Z",
+                    "blogURL": "https://blog.smallcase.com/indias-booming-fmcg-industry/",
+                    "uploaded": "2016-04-04T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "fmcg-tracker-SCTR_0004",
+                    "micrositeUrl": "https://smallcase.com/smallcase/fmcg-tracker-SCTR_0004",
+                    "investmentStrategy": [
+                        {
+                            "key": "sectorTracker",
+                            "displayName": "Sector Tracker"
+                        },
+                        {
+                            "key": "quantamental",
+                            "displayName": "Quantamental"
+                        }
+                    ]
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.0020790006022826423,
+                        "weekly": -0.0005220936802149129,
+                        "monthly": -0.005254538324835145,
+                        "quarterly": 0.08251840980245742,
+                        "halfyearly": 0.18422960508070554,
+                        "yearly": 0.364862877887262,
+                        "threeYear": 0.6870523219498179,
+                        "fiveYear": 0.6870523219498179,
+                        "sinceInception": 2.2278178591539004,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 322.60328941756563,
+                    "unadjustedIndex": 322.60328941756563,
+                    "lastCloseIndex": 322.78178591539006,
+                    "divReturns": 0.16053312290301547,
+                    "minInvestAmount": 38353,
+                    "ratios": {
+                        "52wHigh": 331.9233058297743,
+                        "52wLow": 230.74499473681942,
+                        "divYield": 1.761796771388814,
+                        "divYieldDifferential": 0.35179677138881416,
+                        "largeCapPercentage": 60.040000000000006,
+                        "midCapPercentage": 16.8,
+                        "pb": 8.300577529421902,
+                        "pbDiscount": 96.64349426390335,
+                        "pe": 51.093918601807765,
+                        "peDiscount": 91.19649968401211,
+                        "ema": 312.6415307231509,
+                        "lastCloseEma": 312.4136598200395,
+                        "momentumRank": 675,
+                        "risk": 0.9875398057310388,
+                        "smallCapPercentage": 23.159999999999997,
+                        "cagr": 0.15500486133161484,
+                        "sharpe": -0.08685826999790647,
+                        "momentum": 3.318717274181582,
+                        "marketCapCategory": "Large cap",
+                        "sharpeRatio": 1.0497568725269961,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Medium Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.364862877887262,
+                        "cagr3y": 0.6870523219498179,
+                        "cagr5y": 0.9740797866515203
+                    },
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "WEIGHTS",
+                    "blocked": false
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NIFTY100",
+                    "msg": "Compare with top 100 market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 54
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5704fb528cedad2432b3ca73",
+                "scid": "SCTR_0003",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Manish Yadav",
+                        "userId": "602692d8bcf25719c15223dd"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Sector Trackers",
+                    "name": "Energy Tracker",
+                    "shortDescription": "Companies to efficiently track and invest in the energy sector",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:05.893Z",
+                    "blogURL": "https://blog.smallcase.com/indias-energy-sector-a-powerhouse/",
+                    "uploaded": "2016-04-04T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "energy-tracker-SCTR_0003",
+                    "micrositeUrl": "https://smallcase.com/smallcase/energy-tracker-SCTR_0003",
+                    "investmentStrategy": [
+                        {
+                            "key": "sectorTracker",
+                            "displayName": "Sector Tracker"
+                        },
+                        {
+                            "key": "quantamental",
+                            "displayName": "Quantamental"
+                        }
+                    ]
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.0003342529445644238,
+                        "weekly": 0.01081210614911984,
+                        "monthly": 0.0715966209788698,
+                        "quarterly": 0.15530415033508999,
+                        "halfyearly": 0.316359901604204,
+                        "yearly": 0.6196826728313669,
+                        "threeYear": 0.48656847662341934,
+                        "fiveYear": 0.48656847662341934,
+                        "sinceInception": 2.0030676856267515,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 300.2770022471452,
+                    "unadjustedIndex": 300.2770022471452,
+                    "lastCloseIndex": 300.30676856267513,
+                    "divReturns": 0.7870801935215744,
+                    "minInvestAmount": 26334,
+                    "ratios": {
+                        "52wHigh": 301.63504312456695,
+                        "52wLow": 179.1699354578754,
+                        "divYield": 4.243928060320641,
+                        "divYieldDifferential": 2.833928060320641,
+                        "largeCapPercentage": 46.11000000000001,
+                        "midCapPercentage": 38.12,
+                        "pb": 1.621406433724902,
+                        "pbDiscount": -61.58833218297228,
+                        "pe": 11.80010009278019,
+                        "peDiscount": -55.843319608280474,
+                        "ema": 275.1852696014474,
+                        "lastCloseEma": 274.6207415351136,
+                        "momentumRank": 1540,
+                        "risk": 1.0657699587257958,
+                        "smallCapPercentage": 15.770000000000001,
+                        "cagr": 0.16655080670869404,
+                        "sharpe": -0.27764554926785734,
+                        "momentum": 9.35327276591642,
+                        "marketCapCategory": "Mid cap",
+                        "sharpeRatio": 0.8304259066714558,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Medium Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.6196826728313669,
+                        "cagr3y": 0.4865684766234193,
+                        "cagr5y": 0.7341731741218176
+                    },
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "WEIGHTS",
+                    "blocked": false
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NILM250",
+                    "msg": "Compare with top 250 market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 62
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5704fb528cedad2432b3ca72",
+                "scid": "SCTR_0002",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Naveen K R",
+                        "userId": "5aec02e63e13c16f05e46272"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Sector Trackers",
+                    "name": "Banking Tracker",
+                    "shortDescription": "Companies to efficiently track and invest in the banking sector",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:10.980Z",
+                    "blogURL": "https://blog.smallcase.com/what-are-smallcase-sector-trackers/",
+                    "uploaded": "2016-04-04T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "banking-tracker-SCTR_0002",
+                    "micrositeUrl": "https://smallcase.com/smallcase/banking-tracker-SCTR_0002",
+                    "investmentStrategy": [
+                        {
+                            "key": "sectorTracker",
+                            "displayName": "Sector Tracker"
+                        },
+                        {
+                            "key": "quantamental",
+                            "displayName": "Quantamental"
+                        }
+                    ]
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.006220993163902111,
+                        "weekly": 0.00806173336005497,
+                        "monthly": 0.041096985345461176,
+                        "quarterly": 0.05882541083541234,
+                        "halfyearly": 0.18923738787958405,
+                        "yearly": 0.642550836833759,
+                        "threeYear": 0.24803488688198216,
+                        "fiveYear": 0.24803488688198216,
+                        "sinceInception": 1.661365643481289,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 267.2468192440311,
+                    "unadjustedIndex": 267.2468192440311,
+                    "lastCloseIndex": 266.1365643481289,
+                    "divReturns": 0.12556329006195655,
+                    "minInvestAmount": 12239,
+                    "ratios": {
+                        "52wHigh": 266.50517299442595,
+                        "52wLow": 161.82970011847124,
+                        "divYield": 0.3477677812654841,
+                        "divYieldDifferential": -1.062232218734516,
+                        "largeCapPercentage": 74.89829291599999,
+                        "midCapPercentage": 10.38013618,
+                        "pb": 2.2212750984665797,
+                        "pbDiscount": -47.37724025399408,
+                        "pe": 23.030809774366293,
+                        "peDiscount": -13.817332194376453,
+                        "ema": 257.0078606100658,
+                        "lastCloseEma": 256.8027212002982,
+                        "momentumRank": 720,
+                        "risk": 1.4513094091937482,
+                        "smallCapPercentage": 14.7215709,
+                        "cagr": 0.11806581905359126,
+                        "sharpe": -0.3052431578547028,
+                        "momentum": 3.634635608300507,
+                        "marketCapCategory": "Large cap",
+                        "sharpeRatio": 0.7986994196131054,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "High Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.6425508368337589,
+                        "cagr3y": 0.24803488688198216,
+                        "cagr5y": 0.39455336589881007
+                    },
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "WEIGHTS",
+                    "blocked": false
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NIFTY100",
+                    "msg": "Compare with top 100 market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 45
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5704fb528cedad2432b3ca71",
+                "scid": "SCTR_0001",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Naveen K R",
+                        "userId": "5aec02e63e13c16f05e46272"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "rebalanceSchedule": "quarterly",
+                    "uploaded": "2016-04-04T00:00:00.000Z",
+                    "blogURL": "https://blog.smallcase.com/what-are-smallcase-sector-trackers/",
+                    "nextUpdate": "2021-12-15T15:26:11.395Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "shortDescription": "Companies to efficiently track and invest in the auto sector",
+                    "name": "Auto Tracker",
+                    "type": "Sector Trackers",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "auto-tracker-SCTR_0001",
+                    "micrositeUrl": "https://smallcase.com/smallcase/auto-tracker-SCTR_0001",
+                    "investmentStrategy": [
+                        {
+                            "key": "sectorTracker",
+                            "displayName": "Sector Tracker"
+                        },
+                        {
+                            "key": "quantamental",
+                            "displayName": "Quantamental"
+                        }
+                    ]
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.02867148199615862,
+                        "weekly": 0.03251492530335333,
+                        "monthly": 0.057344273078190934,
+                        "quarterly": 0.07948178302628328,
+                        "halfyearly": 0.2545505758891101,
+                        "yearly": 0.5156878576953459,
+                        "threeYear": 0.2584290841816455,
+                        "fiveYear": 0.2584290841816455,
+                        "sinceInception": 1.9945996948161804,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 302.42594488092664,
+                    "unadjustedIndex": 302.42594488092664,
+                    "lastCloseIndex": 299.45996948161803,
+                    "divReturns": 0.2293586118514061,
+                    "minInvestAmount": 36595,
+                    "ratios": {
+                        "52wHigh": 299.45996948161803,
+                        "52wLow": 183.9954013902335,
+                        "divYield": 1.0399519040120053,
+                        "divYieldDifferential": -0.3700480959879946,
+                        "largeCapPercentage": 51.69999999999999,
+                        "midCapPercentage": 23.659999999999997,
+                        "pb": 4.1186344659292375,
+                        "pbDiscount": -2.428153932022048,
+                        "pe": 39.21777444992331,
+                        "peDiscount": 46.75525787441015,
+                        "ema": 283.33151007460066,
+                        "lastCloseEma": 282.9690727846906,
+                        "momentumRank": 1028,
+                        "risk": 1.280232344630459,
+                        "smallCapPercentage": 24.64,
+                        "cagr": 0.09273913655236488,
+                        "sharpe": -0.18429810194122886,
+                        "momentum": 5.827808860749695,
+                        "marketCapCategory": "Large cap",
+                        "sharpeRatio": 0.9377390664410299,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Medium Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.5156878576953459,
+                        "cagr3y": 0.25842908418164545,
+                        "cagr5y": 0.2912766568134968
+                    },
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "WEIGHTS",
+                    "blocked": false
+                },
+                "benchmark": {
+                    "id": ".NIFMDCP100",
+                    "message": "As this smallcase mainly consists of mid cap stocks",
+                    "index": ".NIFTY100",
+                    "msg": "Compare with top 100 market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 73
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5704fb528cedad2432b3ca6d",
+                "scid": "SCNM_0012",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Abhishek Jadon",
+                        "userId": "5ae85e1daaa78b78960ca535"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Thematic",
+                    "name": "Rising Rural Demand",
+                    "shortDescription": "Companies that stand to benefit from increasing rural consumption",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:04.823Z",
+                    "blogURL": null,
+                    "uploaded": "2016-04-04T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "rising-rural-demand-SCNM_0012",
+                    "micrositeUrl": "https://smallcase.com/smallcase/rising-rural-demand-SCNM_0012",
+                    "investmentStrategy": [
+                        {
+                            "key": "thematic",
+                            "displayName": "Thematic"
+                        },
+                        {
+                            "key": "fundamental",
+                            "displayName": "Fundamental"
+                        }
+                    ]
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.013904940251251658,
+                        "weekly": 0.01854875202079474,
+                        "monthly": 0.01869619841397364,
+                        "quarterly": 0.0876212762216906,
+                        "halfyearly": 0.22867842330524554,
+                        "yearly": 0.42166224158599036,
+                        "threeYear": 0.6199911126379493,
+                        "fiveYear": 0.6199911126379493,
+                        "sinceInception": 3.8923686356397242,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 490.82692812579074,
+                    "unadjustedIndex": 490.82692812579074,
+                    "lastCloseIndex": 489.2368635639724,
+                    "divReturns": 1.3003400991148477,
+                    "minInvestAmount": 47627,
+                    "ratios": {
+                        "52wHigh": 492.77166843373385,
+                        "52wLow": 341.150614253502,
+                        "divYield": 1.3638452574572935,
+                        "divYieldDifferential": -0.04615474254270646,
+                        "largeCapPercentage": 37.5,
+                        "midCapPercentage": 36,
+                        "pb": 5.778326937314872,
+                        "pbDiscount": 36.890523090141095,
+                        "pe": 31.53198938725998,
+                        "peDiscount": 17.994590430654878,
+                        "ema": 468.0618941604014,
+                        "lastCloseEma": 467.58605215150993,
+                        "momentumRank": 844,
+                        "risk": 1.093810859022556,
+                        "smallCapPercentage": 26.5,
+                        "cagr": 0.18235830037610867,
+                        "sharpe": 0.009899092403546694,
+                        "momentum": 4.630337306435961,
+                        "marketCapCategory": "Mid cap",
+                        "sharpeRatio": 1.1609901047967313,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Medium Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.4216622415859903,
+                        "cagr3y": 0.6199911126379491,
+                        "cagr5y": 0.8943578702236987
+                    },
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "WEIGHTS",
+                    "blocked": false
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NILM250",
+                    "msg": "Compare with top 250 market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 11
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5704fb528cedad2432b3ca6c",
+                "scid": "SCNM_0011",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Naveen K R",
+                        "userId": "5aec02e63e13c16f05e46272"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Thematic",
+                    "name": "The Great Indian Middle Class - Low-Cost Version",
+                    "shortDescription": "Companies focused on the growing middle class. Running India's consumption engine",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:16.091Z",
+                    "blogURL": "https://blog.smallcase.com/consumption-stocks-with-great-indian-middle-class/",
+                    "uploaded": "2016-04-04T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "the-great-indian-middle-class-low-cost-version-SCNM_0011",
+                    "micrositeUrl": "https://smallcase.com/smallcase/the-great-indian-middle-class-low-cost-version-SCNM_0011",
+                    "investmentStrategy": [
+                        {
+                            "key": "thematic",
+                            "displayName": "Thematic"
+                        },
+                        {
+                            "key": "fundamental",
+                            "displayName": "Fundamental"
+                        }
+                    ]
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.026452425430192907,
+                        "weekly": 0.02735095505871715,
+                        "monthly": 0.030982178199822092,
+                        "quarterly": 0.13060970692796178,
+                        "halfyearly": 0.27206942367632175,
+                        "yearly": 0.5119091753454152,
+                        "threeYear": 0.7334576198931058,
+                        "fiveYear": 0.7334576198931058,
+                        "sinceInception": 2.99854067403767,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 399.6939710833914,
+                    "unadjustedIndex": 399.6939710833914,
+                    "lastCloseIndex": 399.854067403767,
+                    "divReturns": 0.14723523766205285,
+                    "minInvestAmount": 65389,
+                    "ratios": {
+                        "52wHigh": 399.854067403767,
+                        "52wLow": 259.92909806453525,
+                        "divYield": 0.8397487502924671,
+                        "divYieldDifferential": -0.5702512497075328,
+                        "largeCapPercentage": 53.36,
+                        "midCapPercentage": 33.3,
+                        "pb": 9.215259123965858,
+                        "pbDiscount": 118.31261117202878,
+                        "pe": 80.65850433040083,
+                        "peDiscount": 201.82894794009272,
+                        "ema": 374.5925287948718,
+                        "lastCloseEma": 374.02485377016467,
+                        "momentumRank": 1183,
+                        "risk": 1.073416692493566,
+                        "smallCapPercentage": 13.34,
+                        "cagr": 0.20602621756058204,
+                        "sharpe": 0.11257670254224572,
+                        "momentum": 6.905747939807805,
+                        "marketCapCategory": "Large cap",
+                        "sharpeRatio": 1.279029313121489,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Medium Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.5119091753454152,
+                        "cagr3y": 0.7334576198931058,
+                        "cagr5y": 1.2190691348230587
+                    },
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "NONE",
+                    "blocked": false
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NIFTY100",
+                    "msg": "Compare with top 100 market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 8
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5704fb528cedad2432b3ca6b",
+                "scid": "SCNM_0010",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Naveen K R",
+                        "userId": "5aec02e63e13c16f05e46272"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Thematic",
+                    "name": "The Great Indian Middle Class",
+                    "shortDescription": "Companies focused on the growing middle class. Running India's consumption engine",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:16.635Z",
+                    "blogURL": "https://blog.smallcase.com/consumption-stocks-with-great-indian-middle-class/",
+                    "uploaded": "2016-04-04T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "the-great-indian-middle-class-SCNM_0010",
+                    "micrositeUrl": "https://smallcase.com/smallcase/the-great-indian-middle-class-SCNM_0010",
+                    "investmentStrategy": [
+                        {
+                            "key": "thematic",
+                            "displayName": "Thematic"
+                        },
+                        {
+                            "key": "fundamental",
+                            "displayName": "Fundamental"
+                        }
+                    ]
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.021503134361929976,
+                        "weekly": 0.016416810127947257,
+                        "monthly": 0.022925475648513997,
+                        "quarterly": 0.10706821272580197,
+                        "halfyearly": 0.23001305639344405,
+                        "yearly": 0.38249138597678317,
+                        "threeYear": 0.6300788317359596,
+                        "fiveYear": 0.6300788317359596,
+                        "sinceInception": 3.9367821541792454,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 492.8537593219392,
+                    "unadjustedIndex": 492.8537593219392,
+                    "lastCloseIndex": 493.67821541792455,
+                    "divReturns": 0.15304232886132801,
+                    "minInvestAmount": 77820,
+                    "ratios": {
+                        "52wHigh": 493.67821541792455,
+                        "52wLow": 347.3298098354377,
+                        "divYield": 1.114781631227748,
+                        "divYieldDifferential": -0.2952183687722518,
+                        "largeCapPercentage": 63.32,
+                        "midCapPercentage": 25.7,
+                        "pb": 9.233004945998124,
+                        "pbDiscount": 118.73301570901927,
+                        "pe": 63.983262071907276,
+                        "peDiscount": 139.4291939487423,
+                        "ema": 468.7787388833322,
+                        "lastCloseEma": 468.21920008501087,
+                        "momentumRank": 978,
+                        "risk": 1.0266487960268262,
+                        "smallCapPercentage": 10.98,
+                        "cagr": 0.20892051710646764,
+                        "sharpe": 0.2509101192346912,
+                        "momentum": 5.4374137857420735,
+                        "marketCapCategory": "Large cap",
+                        "sharpeRatio": 1.4380587935425648,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Medium Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.3824913859767831,
+                        "cagr3y": 0.6300788317359596,
+                        "cagr5y": 1.234040254402772
+                    },
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "NONE",
+                    "blocked": false
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NIFTY100",
+                    "msg": "Compare with top 100 market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 61
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5704fb528cedad2432b3ca69",
+                "scid": "SCNM_0008",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Naveen K R",
+                        "userId": "5aec02e63e13c16f05e46272"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Thematic",
+                    "name": "Banking Privately",
+                    "shortDescription": "Profitable NBFCs and private banks with low NPAs that are giving PSU banks a run for their money",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:17.420Z",
+                    "blogURL": "https://blog.smallcase.com/private-banks-and-nbfcs-vs-public-banks-who-wins/",
+                    "uploaded": "2016-04-04T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "banking-privately-SCNM_0008",
+                    "micrositeUrl": "https://smallcase.com/smallcase/banking-privately-SCNM_0008",
+                    "investmentStrategy": [
+                        {
+                            "key": "thematic",
+                            "displayName": "Thematic"
+                        },
+                        {
+                            "key": "fundamental",
+                            "displayName": "Fundamental"
+                        }
+                    ]
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.013897139796371211,
+                        "weekly": 0.014991798023859129,
+                        "monthly": 0.033550391351114754,
+                        "quarterly": 0.080842024401619,
+                        "halfyearly": 0.18785922729079374,
+                        "yearly": 0.5329779585577332,
+                        "threeYear": 0.2453159387224684,
+                        "fiveYear": 0.2453159387224684,
+                        "sinceInception": 2.7339884333152815,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 373.30914241881845,
+                    "unadjustedIndex": 373.30914241881845,
+                    "lastCloseIndex": 373.39884333152816,
+                    "divReturns": 0.16083005981722714,
+                    "minInvestAmount": 29332,
+                    "ratios": {
+                        "52wHigh": 373.39884333152816,
+                        "52wLow": 241.8280217826102,
+                        "divYield": 0.44251987250910774,
+                        "divYieldDifferential": -0.9674801274908922,
+                        "largeCapPercentage": 63.72,
+                        "midCapPercentage": 18.14,
+                        "pb": 2.6089070110173616,
+                        "pbDiscount": -38.19410889933829,
+                        "pe": 22.669583533517738,
+                        "peDiscount": -15.169062395039013,
+                        "ema": 357.9771690847815,
+                        "lastCloseEma": 357.63061460745587,
+                        "momentumRank": 801,
+                        "risk": 1.566893058438814,
+                        "smallCapPercentage": 18.14,
+                        "cagr": 0.13398227945986996,
+                        "sharpe": -0.2670024179892527,
+                        "momentum": 4.409082466661829,
+                        "marketCapCategory": "Large cap",
+                        "sharpeRatio": 0.8426613569173849,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "High Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.5329779585577332,
+                        "cagr3y": 0.24531593872246837,
+                        "cagr5y": 0.3043589734569747
+                    },
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "WEIGHTS",
+                    "blocked": false
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NIFTY100",
+                    "msg": "Compare with top 100 market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 68
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5704fb528cedad2432b3ca62",
+                "scid": "SCNM_0001",
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "NONE",
+                    "blocked": false
+                },
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Manish Yadav",
+                        "userId": "602692d8bcf25719c15223dd"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Thematic",
+                    "name": "Transporting India",
+                    "shortDescription": "Rapidly growing logistics companies that are fueled by GDP revival and e-commerce growth",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2021-12-15T15:26:06.800Z",
+                    "blogURL": "https://blog.smallcase.com/ride-with-the-logistics-revolution-of-india/",
+                    "uploaded": "2016-04-04T00:00:00.000Z",
+                    "rebalanceSchedule": "quarterly",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "transporting-india-SCNM_0001",
+                    "micrositeUrl": "https://smallcase.com/smallcase/transporting-india-SCNM_0001",
+                    "investmentStrategy": [
+                        {
+                            "key": "thematic",
+                            "displayName": "Thematic"
+                        },
+                        {
+                            "key": "fundamental",
+                            "displayName": "Fundamental"
+                        }
+                    ]
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.016372170842236158,
+                        "weekly": 0.011922409416568178,
+                        "monthly": 0.060883956792251344,
+                        "quarterly": 0.11627980891199613,
+                        "halfyearly": 0.39168124107140817,
+                        "yearly": 0.9546787999313529,
+                        "threeYear": 0.763332191074128,
+                        "fiveYear": 0.763332191074128,
+                        "sinceInception": 2.410272144722027,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 342.81121252651354,
+                    "unadjustedIndex": 342.81121252651354,
+                    "lastCloseIndex": 341.02721447220273,
+                    "divReturns": 0.22662171238595105,
+                    "minInvestAmount": 50862,
+                    "ratios": {
+                        "52wHigh": 341.02721447220273,
+                        "52wLow": 170.04553038605388,
+                        "divYield": 0.9231723139982604,
+                        "divYieldDifferential": -0.48682768600173953,
+                        "largeCapPercentage": 12.5,
+                        "midCapPercentage": 12.5,
+                        "pb": 5.384169907544565,
+                        "pbDiscount": 27.552809497565,
+                        "pe": 54.07437099932208,
+                        "peDiscount": 102.34953083671363,
+                        "ema": 318.3284837534274,
+                        "lastCloseEma": 317.8183999172408,
+                        "momentumRank": 1249,
+                        "risk": 1.2393415621299717,
+                        "smallCapPercentage": 75,
+                        "cagr": 0.08470922120119395,
+                        "sharpe": -0.26209757244682086,
+                        "momentum": 7.302539614133563,
+                        "marketCapCategory": "Small cap",
+                        "sharpeRatio": 0.8483000164459987,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Medium Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.9546787999313529,
+                        "cagr3y": 0.763332191074128,
+                        "cagr5y": 0.4517356199063587
+                    },
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": false,
+                    "recommendedBuyAmount": 0,
+                    "launchDateIndex": 100
+                },
+                "benchmark": {
+                    "id": ".NIFSMCP100",
+                    "message": "As this smallcase mainly consists of small cap stocks",
+                    "index": ".NIFSMCP100",
+                    "msg": "Compare with 251st - 350th market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 82
+                        }
+                    }
+                }
+            },
+            {
+                "_id": "5704fb528cedad2432b3ca61",
+                "scid": "SCMO_0014",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "name": "Abhishek Jadon",
+                        "userId": "5ae85e1daaa78b78960ca535"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "type": "Model-based",
+                    "name": "Dividend Aristocrats",
+                    "shortDescription": "Companies that have been consistently increasing dividends. Extra goodness",
+                    "created": "2014-03-03T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "nextUpdate": "2022-09-15T15:26:17.860Z",
+                    "blogURL": "https://blog.smallcase.com/high-dividend-payout-stocks-with-dividend-aristocrats/",
+                    "uploaded": "2016-04-04T00:00:00.000Z",
+                    "rebalanceSchedule": "annual",
+                    "publisher": "smallcaseHQ",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "publisherName": "Windmill Capital",
+                    "slug": "dividend-aristocrats-SCMO_0014",
+                    "micrositeUrl": "https://smallcase.com/smallcase/dividend-aristocrats-SCMO_0014",
+                    "investmentStrategy": [
+                        {
+                            "key": "dividend",
+                            "displayName": "Dividend"
+                        },
+                        {
+                            "key": "fundamental",
+                            "displayName": "Fundamental"
+                        }
+                    ]
+                },
+                "stats": {
+                    "returns": {
+                        "daily": 0.008832590576748846,
+                        "weekly": 0.008753034137058918,
+                        "monthly": 0.039976908993757,
+                        "quarterly": 0.15241432243970288,
+                        "halfyearly": 0.4038690998599887,
+                        "yearly": 0.7037110840585482,
+                        "threeYear": 1.395586290775799,
+                        "fiveYear": 1.395586290775799,
+                        "sinceInception": 4.312709614897216,
+                        "sinceLaunch": 0
+                    },
+                    "indexValue": 535.4976482777286,
+                    "unadjustedIndex": 535.4976482777286,
+                    "lastCloseIndex": 531.2709614897216,
+                    "divReturns": 0.588410422661364,
+                    "minInvestAmount": 40000,
+                    "ratios": {
+                        "52wHigh": 534.515754693919,
+                        "52wLow": 303.3697915767651,
+                        "divYield": 1.2069202773560195,
+                        "divYieldDifferential": -0.20307972264398044,
+                        "largeCapPercentage": 77.77777777000001,
+                        "midCapPercentage": 11.111111110000001,
+                        "pb": 5.628032517108063,
+                        "pbDiscount": 33.32999734924211,
+                        "pe": 44.369682230723264,
+                        "peDiscount": 66.03400496093575,
+                        "ema": 495.6180094082302,
+                        "lastCloseEma": 494.81681947411363,
+                        "momentumRank": 1261,
+                        "risk": 1.0961920644324121,
+                        "smallCapPercentage": 11.111111110000001,
+                        "cagr": 0.2407248810780538,
+                        "sharpe": 0.12349606210455422,
+                        "momentum": 7.367199452587525,
+                        "marketCapCategory": "Large cap",
+                        "sharpeRatio": 1.2915823181671575,
+                        "oneYearLiveHistory": true,
+                        "riskLabel": "Medium Volatility",
+                        "cagrDuration": "5Y",
+                        "cagr1y": 0.7037110840585483,
+                        "cagr3y": 1.3955862907757988,
+                        "cagr5y": 1.679397627041162
+                    },
+                    "minSipAmount": 5000,
+                    "minInvestAmountOverridden": true,
+                    "recommendedBuyAmount": 40000,
+                    "launchDateIndex": 100
+                },
+                "flags": {
+                    "active": true,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "WEIGHTS",
+                    "blocked": false
+                },
+                "benchmark": {
+                    "id": ".NSEI",
+                    "message": "As this smallcase mainly consists of large cap stocks",
+                    "index": ".NIFTY100",
+                    "msg": "Compare with top 100 market cap stocks"
+                },
+                "brokerMeta": {
+                    "flags": {
+                        "popular": {
+                            "rank": 5
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "success": true,
+        "errors": null,
+        "data": [
+            {
+                "_id": "6026ab7a29178bcc4755ce4f",
+                "info": {
+                    "creator": "smallcaseHQ",
+                    "owner": {
+                        "userId": "5aec02e63e13c16f05e46272",
+                        "name": "Naveen K R"
+                    },
+                    "tags": [],
+                    "tier": null,
+                    "name": "House of HDFC",
+                    "shortDescription": "Companies part of HDFC group, a large conglomerate with businesses in the financial services sector",
+                    "type": "Sector Trackers",
+                    "created": "2018-10-10T00:00:00.000Z",
+                    "uploaded": "2021-02-13T00:00:00.000Z",
+                    "updated": "2021-09-15T00:00:00.000Z",
+                    "publisher": "smallcaseHQ",
+                    "publisherName": "Windmill Capital",
+                    "rebalanceSchedule": "quarterly",
+                    "nextUpdate": "2021-12-15T15:26:07.226Z",
+                    "slug": "house-of-hdfc-SCTR_0015",
+                    "lastRebalanced": "2021-09-15T00:00:00.000Z",
+                    "investmentStrategy": [
+                        {
+                            "key": "sectorTracker",
+                            "displayName": "Sector Tracker"
+                        }
+                    ],
+                    "micrositeUrl": "https://windmillcapital.smallcase.com/smallcase/SCTR_0015",
+                    "stateChange": {
+                        "date": "2021-07-07T11:12:08.013Z",
+                        "publisher": "smallcaseHQ",
+                        "publisherName": "Windmill Capital"
+                    }
+                },
+                "flags": {
+                    "active": true,
+                    "blocked": false,
+                    "locked": false,
+                    "private": false,
+                    "historicalData": true,
+                    "preferredSipType": "WEIGHTS"
+                },
+                "stats": {
+                    "returns": {
                         "daily": -0.0003982100491258183,
                         "weekly": -0.0011493782988015564,
                         "monthly": -0.020312141482006513,
