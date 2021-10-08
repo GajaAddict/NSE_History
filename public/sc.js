@@ -116,6 +116,11 @@ $(document).ready(function () {
         smallCaseStocks = [];
         $.get("https://api.smallcase.com/smallcases/discover?count=50&offset=1", function (data) {
             if (data) {
+                $("#SmallCaseStockhistory").html(`<h1> Data Loading... </h1>
+                <div class="spinner-border" role="status">
+  <span class="sr-only">Loading...</span>
+</div>`)
+
                 let datarows = data.data;
                 scIdsLength = datarows.length;
                 for (let i = 0; i < datarows.length; i++) {
@@ -199,7 +204,7 @@ $(document).ready(function () {
                 eachSCHtml = eachSCHtml + '<a href="https://www.nseindia.com/get-quotes/equity?symbol=' + eachSC.name + '" target="_blank"><span class="material-icons" style="font-size: 30px;width: 40px;">query_stats</span></a>';
                 eachSCHtml = eachSCHtml + '<a href="https://in.tradingview.com/symbols/NSE-' + eachSC.name + '/" target="_blank"><span class="material-icons" style="font-size: 30px;width: 40px;">candlestick_chart</span></span></a>';
             }
-            dayReturn ? eachSCHtml = eachSCHtml + '<span class="eachDay">' + ((eachSC[dayReturn] && eachSC[dayReturn].toFixed(2)) || 0) + '</span>' : '';
+            dayReturn ? eachSCHtml = eachSCHtml + '<span class="eachDay percentage">' + ((eachSC[dayReturn] && eachSC[dayReturn].toFixed(2)) || 0) + ' %</span>' : '';
             for (let j = 0; j < eachSC.indexHistory.length; j++) {
                 let percentColor = (eachSC.indexHistory[j].changePer > 0) ? 'pos' : 'neg';
                 eachSCHtml = eachSCHtml + '<span class="eachDay">';

@@ -13,6 +13,10 @@
     width: 60px;
 }
 
+.historySec .eachDay.percentage {
+    color: #0D47A1
+}
+
 .historySec .eachDay .day, .historySec .eachDay .dayPer {
     display: block;
     color: #fff;
@@ -37,5 +41,18 @@
 }
 
 .material-icons {
-    color: #ff3b00
+    color: #512DA8
+}
+
+select.percentageDropdown {
+    padding-left: 25px;
+    margin-left: 30px;
+    border: 0px;
+    border-bottom: 3px solid red;
+}
+
+p.message {
+    display: inline-block;
+    padding: 0px 20px;
+    color: brown;
 }
