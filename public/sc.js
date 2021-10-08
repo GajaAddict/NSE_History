@@ -65,7 +65,7 @@ $(document).ready(function () {
                 $("#tbod").html(table)
             }
         }).fail(function (e) {
-            $("#showCorsMsg").hide()
+            $("#showCorsMsg").show()
         })
     });
 
