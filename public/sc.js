@@ -1,9 +1,5 @@
 //https://api.smallcase.com/smallcases/smallcase?scid=SCNM_0025
 $(document).ready(function () {
-    console.log(JSONN1);
-    console.log(JSONN2);
-    console.log(JSONN3);
-    console.log(JSONN4);
     let masterArray = [];
     niftyMasterArray = [];
     win = [];
@@ -12,6 +8,21 @@ $(document).ready(function () {
     smallCaseStocks = [];
     window.niftyFirstTime = 0;
     let dayReturn = generateReturnDays();
+    historyJson = [];
+
+    for (let i = 6; i > 0; i--) {
+        $.get("smallCase" + i + ".json", function (data) {
+            if (data) {
+                if (data) {
+                    historyJson = historyJson.concat(JSON.parse(data));
+                }
+            }
+        }).fail(function (e) {
+            if (data) {
+                historyJson = historyJson + data;
+            }
+        })
+    }
 
     function generateReturnDays() {
         generateDropDown();
@@ -69,7 +80,6 @@ $(document).ready(function () {
         })
     });
 
-
     $('#scHistoryBtn').on('click', function () {
         masterArray = [];
         $.get("https://api.smallcase.com/smallcases/discover?count=50&offset=1", function (data) {
@@ -88,7 +98,6 @@ $(document).ready(function () {
                     });
                 }
 
-                historyJson = JSONN6.concat(JSONN5).concat(JSONN4).concat(JSONN3).concat(JSONN2).concat(JSONN1);
                 if (historyJson) {
                     for (let i = 0; i < historyJson.length; i++) {
                         for (let j = 0; j < historyJson[i].data.length; j++) {
