@@ -13,7 +13,10 @@ $(document).ready(function () {
     for (let i = 6; i > 0; i--) {
         $.get("smallCase" + i + ".json", function (data) {
             if (data) {
-                if (data) {
+                if (typeof (data) == 'object') {
+                    historyJson = historyJson.concat(data);
+                }
+                else {
                     historyJson = historyJson.concat(JSON.parse(data));
                 }
             }
