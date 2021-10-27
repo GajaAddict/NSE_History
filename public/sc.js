@@ -150,8 +150,8 @@ $(document).ready(function () {
             url: "https://api.smallcase.com/smallcases/smallcase?scid=" + scID + "&" + Date.now(),
             contentType: "application/json; charset=utf-8",
             headers: {
-                "x-csrf-token": "e6434d77",
-                "x-sc-jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI1ZTExYjk1YmM5OGRlNDM0NjY4YjVjMTQiLCJzZXNzaW9uIjoiMmQ2YmU3NzEiLCJjc3JmIjoiZTY0MzRkNzciLCJhY2Nlc3MiOnsicGxhdGZvcm0iOnRydWV9LCJtZXRob2QiOiJicm9rZXIiLCJhcHAiOiJwbGF0Zm9ybSIsImJyb2tlciI6ImtpdGUiLCJpYXQiOjE2MzM2MjEzNzEsImV4cCI6MTYzNDIyNjE3MX0.v_sTdswLZbXIyuWWzX1XfhThL0iYGY-ADHwanH8vboU"
+                "x-csrf-token": "4f633522",
+                "x-sc-jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI1ZTExYjk1YmM5OGRlNDM0NjY4YjVjMTQiLCJzZXNzaW9uIjoiMjg1OGE3MzAiLCJjc3JmIjoiNGY2MzM1MjIiLCJhY2Nlc3MiOnsicGxhdGZvcm0iOnRydWV9LCJtZXRob2QiOiJicm9rZXIiLCJhcHAiOiJwbGF0Zm9ybSIsImJyb2tlciI6ImtpdGUiLCJpYXQiOjE2MzUzMzA0OTYsImV4cCI6MTYzNTkzNTI5Nn0.8vZrYdQAvXSqH0rlpLPITSQ1C8lkMfhXdY6jmtM_iCM"
             },
             dataType: "json",
             success: function (data) {
