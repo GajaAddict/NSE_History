@@ -10,7 +10,7 @@ $(document).ready(function () {
     let dayReturn = generateReturnDays();
     historyJson = [];
 
-    for (let i = 6; i > 0; i--) {
+    for (let i = 7; i > 0; i--) {
         $.get("smallCase" + i + ".json", function (data) {
             if (data) {
                 if (typeof (data) == 'object') {
