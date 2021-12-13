@@ -285,15 +285,15 @@ $(document).ready(function () {
 
     $('#nftHistoryBtn').on('click', function () {
         niftyMasterArray = [];
-        let nifty100Page;
+        // let nifty100Page;
         nifty100Url = "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20100";
-        if (window.niftyFirstTime == 1) {
-            window.open("https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20100");
-        }
-        if (window.niftyFirstTime == 0) {
-            window.niftyFirstTime = 1;
-            nifty100Page = window.open("https://www.nseindia.com");
-        }
+        // if (window.niftyFirstTime == 1) {
+        //     window.open("https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20100");
+        // }
+        // if (window.niftyFirstTime == 0) {
+        //     window.niftyFirstTime = 1;
+        //     nifty100Page = window.open("https://www.nseindia.com");
+        // }
 
 
         $.get(nifty100Url, function (data) {
@@ -302,8 +302,7 @@ $(document).ready(function () {
                 <div class="spinner-border" role="status">
   <span class="sr-only">Loading...</span>
 </div>`)
-                // win[0].close();
-                // win[1].close();
+
                 let datarows = data.data;
                 for (let i = 0; i < datarows.length; i++) {
                     if (datarows[i].priority == 0) {
@@ -316,7 +315,27 @@ $(document).ready(function () {
                 }
             }
         }).fail(function (e) {
-            $("#niftyHistory").html("<h1> Click Load Again </h1>")
+            $.get("niftyStocks.json", function (data) {
+                if (data) {
+                    data = JSON.parse(data)
+                    $("#niftyHistory").html(`<h1> Data Loading... </h1>
+                    <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+        </div>`)
+                    let datarows = data.data;
+                    for (let i = 0; i < datarows.length; i++) {
+                        if (datarows[i].priority == 0) {
+                            (function (i) {
+                                win = [];
+                                datarows[i].symbol = datarows[i].symbol.replace("&", "%26");
+                                makeNiftyEachCall(datarows[i].symbol, "topNiftyStocks");
+                            })(i);
+                        }
+                    }
+                }
+            })
+
+
         })
 
     });
