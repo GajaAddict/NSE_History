@@ -317,7 +317,12 @@ $(document).ready(function () {
         }).fail(function (e) {
             $.get("niftyStocks.json", function (data) {
                 if (data) {
-                    data = JSON.parse(data)
+                    if (typeof (data) == 'object') {
+                        
+                    }
+                    else {
+                        data = JSON.parse(data)
+                    }
                     $("#niftyHistory").html(`<h1> Data Loading... </h1>
                     <div class="spinner-border" role="status">
         <span class="sr-only">Loading...</span>
