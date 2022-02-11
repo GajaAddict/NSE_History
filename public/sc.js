@@ -153,8 +153,8 @@ $(document).ready(function () {
             url: "https://api.smallcase.com/smallcases/smallcase?scid=" + scID + "&" + Date.now(),
             contentType: "application/json; charset=utf-8",
             headers: {
-                "x-csrf-token": "07f83e69",
-                "x-sc-jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI1ZTExYjk1YmM5OGRlNDM0NjY4YjVjMTQiLCJzZXNzaW9uIjoiYjc4MjhiMWEiLCJjc3JmIjoiMDdmODNlNjkiLCJhY2Nlc3MiOnsicGxhdGZvcm0iOnRydWV9LCJtZXRob2QiOiJicm9rZXIiLCJhcHAiOiJwbGF0Zm9ybSIsImJyb2tlciI6ImtpdGUiLCJpYXQiOjE2MzkwNTk2NjMsImV4cCI6MTYzOTY2NDQ2M30.u3Nji8NftRG5wYZ-7vWRogwq_mOYLUQUDA7IW0mVzi8"
+                "x-csrf-token": "008854bd",
+                "x-sc-jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI1ZTExYjk1YmM5OGRlNDM0NjY4YjVjMTQiLCJzZXNzaW9uIjoiYTQwNTFkYmYiLCJjc3JmIjoiMDA4ODU0YmQiLCJhY2Nlc3MiOnsicGxhdGZvcm0iOnRydWV9LCJtZXRob2QiOiJicm9rZXIiLCJhcHAiOiJwbGF0Zm9ybSIsImJyb2tlciI6ImtpdGUiLCJpYXQiOjE2NDQ1OTkzMjcsImV4cCI6MTY0NTIwNDEyN30.C59Euvmr4mPfuJjfME1_tsOuIcQgFGTzBAeaA0SLC9c"
             },
             dataType: "json",
             success: function (data) {
@@ -318,7 +318,7 @@ $(document).ready(function () {
             $.get("niftyStocks.json", function (data) {
                 if (data) {
                     if (typeof (data) == 'object') {
-                        
+
                     }
                     else {
                         data = JSON.parse(data)
