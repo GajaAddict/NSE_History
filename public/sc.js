@@ -11,20 +11,25 @@ $(document).ready(function () {
     historyJson = [];
 
     for (let i = 7; i > 0; i--) {
-        $.get("smallCase" + i + ".json", function (data) {
-            if (data) {
-                if (typeof (data) == 'object') {
-                    historyJson = historyJson.concat(data);
+
+        setTimeout(function () {
+            console.log(i)
+            $.get("smallCase" + i + ".json", function (data) {
+                console.log("data"+i)
+                if (data) {
+                    if (typeof (data) == 'object') {
+                        historyJson = historyJson.concat(data);
+                    }
+                    else {
+                        historyJson = historyJson.concat(JSON.parse(data));
+                    }
                 }
-                else {
-                    historyJson = historyJson.concat(JSON.parse(data));
+            }).fail(function (e) {
+                if (data) {
+                    historyJson = historyJson + data;
                 }
-            }
-        }).fail(function (e) {
-            if (data) {
-                historyJson = historyJson + data;
-            }
-        })
+            })
+        }, 100 * (7-i));
     }
 
     function generateReturnDays() {
