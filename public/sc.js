@@ -10,7 +10,7 @@ $(document).ready(function () {
     let dayReturn = generateReturnDays();
     historyJson = [];
 
-    for (let i = 7; i > 0; i--) {
+    for (let i = 8; i > 0; i--) {
 
         setTimeout(function () {
             console.log(i)
@@ -29,7 +29,7 @@ $(document).ready(function () {
                     historyJson = historyJson + data;
                 }
             })
-        }, 100 * (7-i));
+        }, 100 * (8-i));
     }
 
     function generateReturnDays() {
