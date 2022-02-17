@@ -9,13 +9,14 @@ $(document).ready(function () {
     window.niftyFirstTime = 0;
     let dayReturn = generateReturnDays();
     historyJson = [];
+    ChartArray = [];
 
     for (let i = 8; i > 0; i--) {
 
         setTimeout(function () {
             console.log(i)
             $.get("smallCase" + i + ".json", function (data) {
-                console.log("data"+i)
+                console.log("data" + i)
                 if (data) {
                     if (typeof (data) == 'object') {
                         historyJson = historyJson.concat(data);
@@ -29,7 +30,7 @@ $(document).ready(function () {
                     historyJson = historyJson + data;
                 }
             })
-        }, 100 * (8-i));
+        }, 100 * (8 - i));
     }
 
     function generateReturnDays() {
@@ -128,6 +129,43 @@ $(document).ready(function () {
                 var selectedDay = dayReturn[1];
                 masterArray.sort((a, b) => parseFloat(b[selectedDay]) - parseFloat(a[selectedDay]));
                 generateHistoryTable(masterArray, selectedDay, 'sc');
+
+                //For Chart
+                let totalPoints = 0;
+                masterArray.forEach(array => {
+                    if (array.name == 'Insurance Tracker') {    //longest tracked data
+                        totalPoints = array.indexHistory.length;
+                    }
+                });
+
+                ChartArray = [['Day']];
+                for (let count = totalPoints; count > 0; count--) {
+                    ChartArray.push([count])
+                }
+
+                masterArray.forEach(array => {
+                    ChartArray[0].push(array.name) // push array name
+
+                    let lastArrayValue = array.indexHistory[array.indexHistory.length - 1].index;
+
+                    array.indexHistory.forEach((history, i) => {
+                        ChartArray[i + 1].push(parseInt(history.index) * 100 / lastArrayValue) // start with 100 for all sm's
+                    })
+                    if (array.indexHistory.length < totalPoints) {
+                        let localPoints = array.indexHistory.length;
+                        for (let o = localPoints; o < totalPoints; o++) {
+                            ChartArray[o + 1].push(0)
+                            console.log(o)
+                        }
+                    }
+                })
+
+                console.log(ChartArray);
+
+                google.charts.load('current', { 'packages': ['corechart'] });
+                google.charts.setOnLoadCallback(drawChart);
+
+                //For Chart
             }
         });
     });
@@ -404,6 +442,29 @@ $(document).ready(function () {
                 if (typeof (fail) === 'function') fail(data);
             }
         });
+    }
+
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable(ChartArray);
+
+        var options = {
+            title: 'All Smallcase Performance',
+            hAxis: {
+                title: 'Year', titleTextStyle: { color: '#333' },
+                slantedText: true, slantedTextAngle: 80
+            },
+            vAxis: { minValue: 0 },
+            explorer: {
+                actions: ['dragToZoom', 'rightClickToReset'],
+                axis: 'horizontal',
+                keepInBounds: true,
+                maxZoomIn: 4.0
+            },
+            // colors: ['#D44E41'],
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('smallcase_chart_div'));
+        chart.draw(data, options);
     }
 
     $('#scToday').click();
