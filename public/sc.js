@@ -11,7 +11,7 @@ $(document).ready(function () {
     historyJson = [];
     ChartArray = [];
 
-    for (let i = 8; i > 0; i--) {
+    for (let i = 9; i > 0; i--) {//here
 
         setTimeout(function () {
             console.log(i)
@@ -30,7 +30,7 @@ $(document).ready(function () {
                     historyJson = historyJson + data;
                 }
             })
-        }, 100 * (8 - i));
+        }, 300 * (9 - i));//here
     }
 
     function generateReturnDays() {
