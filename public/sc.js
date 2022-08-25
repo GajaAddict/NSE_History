@@ -11,7 +11,7 @@ $(document).ready(function () {
     historyJson = [];
     ChartArray = [];
 
-    for (let i = 10; i > 0; i--) {//here
+    for (let i = 10; i > 5; i--) {//here
 
         setTimeout(function () {
             console.log(i)
