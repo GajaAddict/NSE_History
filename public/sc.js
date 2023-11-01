@@ -149,7 +149,7 @@ $(document).ready(function () {
                     let lastArrayValue = array.indexHistory[array.indexHistory.length - 1].index;
 
                     array.indexHistory.forEach((history, i) => {
-                        ChartArray[i + 1].push(parseInt(history.index) * 100 / lastArrayValue) // start with 100 for all sm's
+                        ChartArray[i + 1]?.push(parseInt(history.index) * 100 / lastArrayValue) // start with 100 for all sm's
                     })
                     if (array.indexHistory.length < totalPoints) {
                         let localPoints = array.indexHistory.length;
