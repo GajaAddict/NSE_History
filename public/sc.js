@@ -6,6 +6,7 @@ $(document).ready(function () {
     scIds = [];
     scIdsLength = 0;
     smallCaseStocks = [];
+    macdStocks = []
     window.niftyFirstTime = 0;
     let dayReturn = generateReturnDays();
     historyJson = [];
@@ -189,6 +190,30 @@ $(document).ready(function () {
         });
     });
 
+    $('#macdDailyBtn').on('click', function () {
+        macdStocks = []
+        $.get("macdStocks.json", function (data) {
+            if (data) {
+                macdStocks = data;
+                $("#macdHistory").html(`<h1> Data Loading... </h1>
+                    <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+        </div>`)
+                let datarows = data;
+                for (let i = 0; i < datarows.length; i++) {
+                    if (datarows[i]) {
+                        (function (i) {
+                            datarows[i].symbol = datarows[i].symbol.replace("&", "%26");
+                            makeNiftyEachCall(datarows[i].symbol, "macdStocks", datarows[i].fromDate);
+                        })(i);
+                    }
+                }
+            }
+        })
+
+
+    });
+
     function makeEachSmallcaseCall(scID) {
 
         $.ajax({
@@ -233,7 +258,7 @@ $(document).ready(function () {
                         eachSC[(j + 1) + "DayReturn"] = (eachSC.indexHistory[0].index - eachSC.indexHistory[j + 1].index) * 100 / eachSC.indexHistory[j + 1].index;
                     }
                     else {
-                        eachSC[(j + 1) + "DayReturn"] = 0;
+                        eachSC[(j + 1) + "DayReturn"] = (eachSC.indexHistory[0].index - eachSC.indexHistory[eachSC.indexHistory.length - 1].index) * 100 / eachSC.indexHistory[eachSC.indexHistory.length - 1].index;
                     }
                 }
                 for (let j = 0; j < eachSC.indexHistory.length; j++) {
@@ -241,9 +266,56 @@ $(document).ready(function () {
                         eachSC.indexHistory[j].change = eachSC.indexHistory[j].index - eachSC.indexHistory[j + 1].index;
                         eachSC.indexHistory[j].changePer = eachSC.indexHistory[j].change * 100 / eachSC.indexHistory[j + 1].index;
                         eachSC.indexHistory[j].changePer = eachSC.indexHistory[j].changePer.toFixed(2);
-
                     }
                 }
+
+                let added90 = false;
+                let added95 = false;
+                let added80 = false;
+                let capital = 0;
+                for (let j = eachSC.indexHistory.length - 1; j >= 0; j--) {
+                    if (eachSC.indexHistory.length == (j + 1)) {
+                        eachSC.indexHistory[j].holding = Math.floor(25000 / eachSC.indexHistory[j].index);
+                        capital = eachSC.indexHistory[j].index * eachSC.indexHistory[j].holding;
+                        eachSC.indexHistory[j].totalProfit = 0;
+                    }
+                    else {
+                        let totalChangePer = eachSC.indexHistory[j].index * 100 / eachSC.indexHistory[eachSC.indexHistory.length - 1].index;
+
+                        if (totalChangePer < 80 && (added80 == false)) {
+                            eachSC.indexHistory[j].holding = eachSC.indexHistory[j + 1].holding + Math.floor(25000 / eachSC.indexHistory[j].index);
+                            added80 = true
+                            capital = capital + (eachSC.indexHistory[j].index * (eachSC.indexHistory[j].holding - eachSC.indexHistory[j + 1].holding));
+
+                            eachSC.indexHistory[j].totalProfit = ((eachSC.indexHistory[j].index - eachSC.indexHistory[j + 1].index) * eachSC.indexHistory[j + 1].holding) + eachSC.indexHistory[j + 1].totalProfit;
+                            eachSC.indexHistory[j].fourthAverage = true;
+                        }
+                        else if (totalChangePer < 90 && (added90 == false)) {
+                            eachSC.indexHistory[j].holding = eachSC.indexHistory[j + 1].holding + Math.floor(25000 / eachSC.indexHistory[j].index);
+                            added90 = true
+                            capital = capital + (eachSC.indexHistory[j].index * (eachSC.indexHistory[j].holding - eachSC.indexHistory[j + 1].holding));
+
+                            eachSC.indexHistory[j].totalProfit = ((eachSC.indexHistory[j].index - eachSC.indexHistory[j + 1].index) * eachSC.indexHistory[j + 1].holding) + eachSC.indexHistory[j + 1].totalProfit;
+                            eachSC.indexHistory[j].thirdAverage = true;
+                        }
+                        else if (totalChangePer < 95 && (added95 == false)) {
+                            eachSC.indexHistory[j].holding = eachSC.indexHistory[j + 1].holding + Math.floor(25000 / eachSC.indexHistory[j].index);
+                            added95 = true;
+                            capital = capital + (eachSC.indexHistory[j].index * (eachSC.indexHistory[j].holding - eachSC.indexHistory[j + 1].holding));
+
+                            eachSC.indexHistory[j].totalProfit = ((eachSC.indexHistory[j].index - eachSC.indexHistory[j + 1].index) * eachSC.indexHistory[j + 1].holding) + eachSC.indexHistory[j + 1].totalProfit;
+                            eachSC.indexHistory[j].secondAverage = true;
+
+                        }
+                        else {
+                            eachSC.indexHistory[j].holding = eachSC.indexHistory[j + 1].holding;
+                            eachSC.indexHistory[j].totalProfit = ((eachSC.indexHistory[j].index - eachSC.indexHistory[j + 1].index) * eachSC.indexHistory[j].holding) + eachSC.indexHistory[j + 1].totalProfit;
+                        }
+                    }
+                }
+
+                eachSC.capital = capital;
+
             }
         } catch (e) {
             console.log(masterArray);
@@ -263,15 +335,19 @@ $(document).ready(function () {
                 eachSCHtml = eachSCHtml + '<a href="https://www.nseindia.com/get-quotes/equity?symbol=' + eachSC.name + '" target="_blank"><span class="material-icons" style="font-size: 30px;width: 40px;">query_stats</span></a>';
                 eachSCHtml = eachSCHtml + '<a href="https://in.tradingview.com/symbols/NSE-' + eachSC.name + '/" target="_blank"><span class="material-icons" style="font-size: 30px;width: 40px;">candlestick_chart</span></span></a>';
             }
-            dayReturn ? eachSCHtml = eachSCHtml + '<span class="eachDay percentage">' + ((eachSC[dayReturn] && eachSC[dayReturn].toFixed(2)) || 0) + ' %</span>' : '';
+            debugger;
+            dayReturn ? eachSCHtml = eachSCHtml + '<span class="eachDay percentage"><div>' + ((eachSC[dayReturn] && eachSC[dayReturn].toFixed(2)) || 0) + ' %</div><div>-</div><div>' + eachSC.capital.toFixed(0) + '</div></span>' : '';
+
             for (let j = 0; j < eachSC.indexHistory.length; j++) {
                 let percentColor = (eachSC.indexHistory[j].changePer > 0) ? 'pos' : 'neg';
                 eachSCHtml = eachSCHtml + '<span class="eachDay">';
+                eachSCHtml = eachSCHtml + ((eachSC.indexHistory[j].secondAverage === true || eachSC.indexHistory[j].thirdAverage === true || eachSC.indexHistory[j].fourthAverage === true) ? '<span style="font-size:20px;">&#8595;</span>' : '');
                 eachSCHtml = eachSCHtml + '<span class="dayPer ' + percentColor + '">' + (eachSC.indexHistory[j].changePer || "") + '</span>';
                 eachSCHtml = eachSCHtml + '<span class="day indexVal">' + eachSC.indexHistory[j].index + '</span>';
+                eachSCHtml = eachSCHtml + '<span class="day indexVal">' + eachSC.indexHistory[j].totalProfit.toFixed(0) + '</span>';
                 eachSCHtml = eachSCHtml + '</span>';
             }
-            eachSCHtml = eachSCHtml + '</div>';
+            eachSCHtml = eachSCHtml + '</div><div></div>';
             histSection = histSection + eachSCHtml;
         }
 
@@ -281,6 +357,8 @@ $(document).ready(function () {
             $("#niftyHistory").html(histSection)
         if (idForDisplay == 'smallcaseStocks')
             $("#SmallCaseStockhistory").html(histSection)
+        if (idForDisplay == 'macdStocks')
+            $("#macdHistory").html(histSection)
 
     }
 
@@ -312,6 +390,7 @@ $(document).ready(function () {
         console.log(masterArray);
     });
 
+
     $("#scStockDrop").change(function () {
         if (this.value == 'select') {
             generateHistoryTable(niftyMasterArray, '1DayReturn', 'smallcaseStocks');
@@ -325,6 +404,7 @@ $(document).ready(function () {
 
         console.log(masterArray);
     });
+
 
     $('#nftHistoryBtn').on('click', function () {
         niftyMasterArray = [];
@@ -388,11 +468,11 @@ $(document).ready(function () {
 
     });
 
-    function makeNiftyEachCall(symbol, flag) {
+    function makeNiftyEachCall(symbol, flag, fromDate) {
 
         $.ajax({
             type: "GET",
-            url: "https://priceapi.moneycontrol.com/techCharts/techChartController/history?symbol=" + symbol + "&resolution=1D&from=1591004876&to=" + Date.now(),
+            url: "https://priceapi.moneycontrol.com/techCharts/techChartController/history?symbol=" + symbol + "&resolution=1D&from=" + (fromDate ? (new Date(fromDate)).getTime() / 1000 : 1698364800) + "&to=" + Date.now(),
             contentType: "application/json; charset=utf-8",
             dataType: "json",
             success: function (data) {
@@ -433,6 +513,16 @@ $(document).ready(function () {
                         var selectedDay = dayReturn[1];
                         niftyMasterArray.sort((a, b) => parseFloat(b[selectedDay]) - parseFloat(a[selectedDay]));
                         generateHistoryTable(niftyMasterArray, selectedDay, 'smallcaseStocks');
+                    }
+                }
+                else if (flag == "macdStocks") {
+                    if (niftyMasterArray.length == macdStocks.length) {
+                        console.log(niftyMasterArray);
+                        niftyMasterArray = addChange(niftyMasterArray);
+
+                        var selectedDay = dayReturn[100];
+                        niftyMasterArray.sort((a, b) => parseFloat(b[selectedDay]) - parseFloat(a[selectedDay]));
+                        generateHistoryTable(niftyMasterArray, selectedDay, 'macdStocks');
                     }
                 }
 
