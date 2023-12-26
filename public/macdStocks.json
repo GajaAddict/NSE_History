@@ -76,15 +76,19 @@
         "fromDate": "2023-12-19"
     },
     {
-        "symbol": "ASAHIINDIA",
-        "fromDate": "2023-12-21"
-    },
-    {
         "symbol": "DELHIVERY",
         "fromDate": "2023-12-21"
     },
     {
         "symbol": "RAJESHEXPO",
         "fromDate": "2023-10-27"
+    },
+    {
+        "symbol": "PEL",
+        "fromDate": "2023-12-22"
+    },
+    {
+        "symbol": "SONACOMS",
+        "fromDate": "2023-10-22"
     }
 ]

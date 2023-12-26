@@ -11,6 +11,7 @@ $(document).ready(function () {
     let dayReturn = generateReturnDays();
     historyJson = [];
     ChartArray = [];
+    instrumentsId = [];
 
     for (let i = 10; i > 5; i--) {//here
 
@@ -87,6 +88,12 @@ $(document).ready(function () {
             }
         }).fail(function (e) {
             $("#showCorsMsg").show()
+        })
+
+        $.get("instruments.json", function (data) {
+            if (data) {
+                instrumentsId = data;
+            }
         })
     });
 
@@ -334,9 +341,10 @@ $(document).ready(function () {
             if (idForDisplay != "sc") {
                 eachSCHtml = eachSCHtml + '<a href="https://www.nseindia.com/get-quotes/equity?symbol=' + eachSC.name + '" target="_blank"><span class="material-icons" style="font-size: 30px;width: 40px;">query_stats</span></a>';
                 eachSCHtml = eachSCHtml + '<a href="https://in.tradingview.com/symbols/NSE-' + eachSC.name + '/" target="_blank"><span class="material-icons" style="font-size: 30px;width: 40px;">candlestick_chart</span></span></a>';
+                eachSCHtml = eachSCHtml + '<a href="https://kite.zerodha.com/chart/ext/ciq/NSE/' + eachSC.name + '/' + instrumentsId.filter(each => each.tradingsymbol == eachSC.name)[0]?.instrument_token + '/" target="_blank"><span class="material-icons" style="font-size: 30px;width: 40px;">timeline</span></span></a>';
             }
-            debugger;
-            dayReturn ? eachSCHtml = eachSCHtml + '<span class="eachDay percentage"><div>' + ((eachSC[dayReturn] && eachSC[dayReturn].toFixed(2)) || 0) + ' %</div><div>-</div><div>' + eachSC.capital.toFixed(0) + '</div></span>' : '';
+
+            dayReturn ? eachSCHtml = eachSCHtml + '<span class="eachDay percentage"><div>' + ((eachSC[dayReturn] && eachSC[dayReturn]?.toFixed(2)) || 0) + ' %</div><div>-</div><div>' + eachSC.capital?.toFixed(0) + '</div></span>' : '';
 
             for (let j = 0; j < eachSC.indexHistory.length; j++) {
                 let percentColor = (eachSC.indexHistory[j].changePer > 0) ? 'pos' : 'neg';
@@ -344,7 +352,7 @@ $(document).ready(function () {
                 eachSCHtml = eachSCHtml + ((eachSC.indexHistory[j].secondAverage === true || eachSC.indexHistory[j].thirdAverage === true || eachSC.indexHistory[j].fourthAverage === true) ? '<span style="font-size:20px;">&#8595;</span>' : '');
                 eachSCHtml = eachSCHtml + '<span class="dayPer ' + percentColor + '">' + (eachSC.indexHistory[j].changePer || "") + '</span>';
                 eachSCHtml = eachSCHtml + '<span class="day indexVal">' + eachSC.indexHistory[j].index + '</span>';
-                eachSCHtml = eachSCHtml + '<span class="day indexVal">' + eachSC.indexHistory[j].totalProfit.toFixed(0) + '</span>';
+                eachSCHtml = eachSCHtml + '<span class="day indexVal">' + eachSC.indexHistory[j].totalProfit?.toFixed(0) + '</span>';
                 eachSCHtml = eachSCHtml + '</span>';
             }
             eachSCHtml = eachSCHtml + '</div><div></div>';
