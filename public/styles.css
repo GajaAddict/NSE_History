@@ -20,11 +20,11 @@
 .historySec .eachDay .day, .historySec .eachDay .dayPer {
     display: block;
     color: #fff;
+    min-height: 24px;
 }
 
 .historySec .eachDay .pos {
     background-color: green;
-    border: 1px solid #fff;
 }
 
 .historySec .eachDay .neg {

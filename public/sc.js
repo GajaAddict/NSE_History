@@ -2,7 +2,6 @@
 $(document).ready(function () {
     let masterArray = [];
     niftyMasterArray = [];
-    win = [];
     scIds = [];
     scIdsLength = 0;
     smallCaseStocks = [];
@@ -347,7 +346,7 @@ $(document).ready(function () {
             dayReturn ? eachSCHtml = eachSCHtml + '<span class="eachDay percentage"><div>' + ((eachSC[dayReturn] && eachSC[dayReturn]?.toFixed(2)) || 0) + ' %</div><div>-</div><div>' + eachSC.capital?.toFixed(0) + '</div></span>' : '';
 
             for (let j = 0; j < eachSC.indexHistory.length; j++) {
-                let percentColor = (eachSC.indexHistory[j].changePer > 0) ? 'pos' : 'neg';
+                let percentColor = (eachSC.indexHistory[j].changePer > 0) ? 'pos' : ((eachSC.indexHistory[j].changePer < 0) ? 'neg' : '');
                 eachSCHtml = eachSCHtml + '<span class="eachDay">';
                 eachSCHtml = eachSCHtml + ((eachSC.indexHistory[j].secondAverage === true || eachSC.indexHistory[j].thirdAverage === true || eachSC.indexHistory[j].fourthAverage === true) ? '<span style="font-size:20px;">&#8595;</span>' : '');
                 eachSCHtml = eachSCHtml + '<span class="dayPer ' + percentColor + '">' + (eachSC.indexHistory[j].changePer || "") + '</span>';
@@ -438,7 +437,6 @@ $(document).ready(function () {
                 for (let i = 0; i < datarows.length; i++) {
                     if (datarows[i].priority == 0) {
                         (function (i) {
-                            win = [];
                             datarows[i].symbol = datarows[i].symbol.replace("&", "%26");
                             makeNiftyEachCall(datarows[i].symbol, "topNiftyStocks");
                         })(i);
@@ -462,7 +460,6 @@ $(document).ready(function () {
                     for (let i = 0; i < datarows.length; i++) {
                         if (datarows[i].priority == 0) {
                             (function (i) {
-                                win = [];
                                 datarows[i].symbol = datarows[i].symbol.replace("&", "%26");
                                 makeNiftyEachCall(datarows[i].symbol, "topNiftyStocks");
                             })(i);

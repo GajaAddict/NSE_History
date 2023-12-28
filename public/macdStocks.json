@@ -89,6 +89,62 @@
     },
     {
         "symbol": "SONACOMS",
-        "fromDate": "2023-10-22"
+        "fromDate": "2023-12-22"
+    },
+    {
+        "symbol": "AAVAS",
+        "fromDate": "2023-12-05"
+    },
+    {
+        "symbol": "BBTC",
+        "fromDate": "2023-12-26"
+    },
+    {
+        "symbol": "LINDEINDIA",
+        "fromDate": "2023-12-26"
+    },
+    {
+        "symbol": "PAYTM",
+        "fromDate": "2023-12-26"
+    },
+    {
+        "symbol": "VAIBHAVGBL",
+        "fromDate": "2023-12-26"
+    },
+    {
+        "symbol": "EMAMILTD",
+        "fromDate": "2023-12-27"
+    },
+    {
+        "symbol": "ERIS",
+        "fromDate": "2023-12-27"
+    },
+    {
+        "symbol": "PGHH",
+        "fromDate": "2023-12-27"
+    },
+    {
+        "symbol": "POLYPLEX",
+        "fromDate": "2023-12-27"
+    },
+    {
+        "symbol": "HONAUT",
+        "fromDate": "2023-12-28"
+    },
+    {
+        "symbol": "INDIGOPNTS",
+        "fromDate": "2023-12-28"
+    },
+    {
+        "symbol": "JAMNAAUTO",
+        "fromDate": "2023-12-28"
+    },
+    {
+        "symbol": "LINDEINDIA",
+        "fromDate": "2023-12-28"
+    },
+    {
+        "symbol": "PEL",
+        "fromDate": "2023-12-28"
     }
 ]
