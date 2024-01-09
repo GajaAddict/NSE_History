@@ -198,7 +198,14 @@ $(document).ready(function () {
 
     $('#macdDailyBtn').on('click', function () {
         macdStocks = []
-        $.get("macdStocks.json", function (data) {
+        niftyMasterArray = [];
+        let fileName = "macdStocks.json"
+        debugger;
+        if ($('#smallCaseByShank').is(":checked")) {
+            fileName = 'smallcase2024Stocks.json'
+        }
+
+        $.get(fileName, function (data) {//here -- smallcase2024Stocks
             if (data) {
                 macdStocks = data;
                 $("#macdHistory").html(`<h1> Data Loading... </h1>
@@ -526,7 +533,13 @@ $(document).ready(function () {
                         niftyMasterArray = addChange(niftyMasterArray);
 
                         var selectedDay = dayReturn[100];
-                        niftyMasterArray.sort((a, b) => parseFloat(b[selectedDay]) - parseFloat(a[selectedDay]));
+
+                        if ($('#SortByDateCheckBox').is(":checked")) { //by Date
+                            niftyMasterArray.sort((a, b) => b.indexHistory.length - a.indexHistory.length);
+                        }
+                        else {// By returns
+                            niftyMasterArray.sort((a, b) => parseFloat(b[selectedDay]) - parseFloat(a[selectedDay]));
+                        }
                         generateHistoryTable(niftyMasterArray, selectedDay, 'macdStocks');
                     }
                 }

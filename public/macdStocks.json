@@ -146,5 +146,157 @@
     {
         "symbol": "PEL",
         "fromDate": "2023-12-28"
+    },
+    {
+        "symbol": "FIVESTAR",
+        "fromDate": "2023-12-29"
+    },
+    {
+        "symbol": "ICICIPRULI",
+        "fromDate": "2023-12-29"
+    },
+    {
+        "symbol": "MEDPLUS",
+        "fromDate": "2023-12-29"
+    },
+    {
+        "symbol": "RENUKA",
+        "fromDate": "2023-12-29"
+    },
+    {
+        "symbol": "TRIVENI",
+        "fromDate": "2023-12-29"
+    },
+    {
+        "symbol": "ZFCVINDIA",
+        "fromDate": "2023-12-29"
+    },
+    {
+        "symbol": "ABBOTINDIA",
+        "fromDate": "2024-01-01"
+    },
+    {
+        "symbol": "BALKRISIND",
+        "fromDate": "2024-01-01"
+    },
+    {
+        "symbol": "CIEINDIA",
+        "fromDate": "2024-01-01"
+    },
+    {
+        "symbol": "GALAXYSURF",
+        "fromDate": "2024-01-01"
+    },
+    {
+        "symbol": "LALPATHLAB",
+        "fromDate": "2024-01-01"
+    },
+    {
+        "symbol": "MHRIL",
+        "fromDate": "2024-01-01"
+    },
+    {
+        "symbol": "RBA",
+        "fromDate": "2024-01-01"
+    },
+    {
+        "symbol": "STARHEALTH",
+        "fromDate": "2024-01-01"
+    },
+    {
+        "symbol": "STLTECH",
+        "fromDate": "2024-01-01"
+    },
+    {
+        "symbol": "SYNGENE",
+        "fromDate": "2024-01-01"
+    },
+    {
+        "symbol": "BAJFINANCE",
+        "fromDate": "2024-01-03"
+    },
+    {
+        "symbol": "JINDALSAW",
+        "fromDate": "2024-01-03"
+    },
+    {
+        "symbol": "PGHL",
+        "fromDate": "2024-01-03"
+    },
+    {
+        "symbol": "SUNDRMFAST",
+        "fromDate": "2024-01-03"
+    },
+    {
+        "symbol": "VGUARD",
+        "fromDate": "2024-01-03"
+    },
+    {
+        "symbol": "IIFL",
+        "fromDate": "2024-01-04"
+    },
+    {
+        "symbol": "LINDEINDIA",
+        "fromDate": "2024-01-04"
+    },
+    {
+        "symbol": "PRAJIND",
+        "fromDate": "2024-01-04"
+    },
+    {
+        "symbol": "SUNTECK",
+        "fromDate": "2024-01-04"
+    },
+    {
+        "symbol": "USHAMART",
+        "fromDate": "2024-01-04"
+    },
+    {
+        "symbol": "WESTLIFE",
+        "fromDate": "2024-01-04"
+    },
+    {
+        "symbol": "IRFC",
+        "fromDate": "2024-01-05"
+    },
+    {
+        "symbol": "BALKRISIND",
+        "fromDate": "2024-01-05"
+    },
+    {
+        "symbol": "KFINTECH",
+        "fromDate": "2024-01-05"
+    },
+    {
+        "symbol": "KNRCON",
+        "fromDate": "2024-01-05"
+    },
+    {
+        "symbol": "MTARTECH",
+        "fromDate": "2024-01-05"
+    },
+    {
+        "symbol": "SKFINDIA",
+        "fromDate": "2024-01-05"
+    },
+    {
+        "symbol": "ALOKINDS",
+        "fromDate": "2024-01-01"
+    },
+    {
+        "symbol": "CREDITACC",
+        "fromDate": "2024-01-08"
+    },
+    {
+        "symbol": "DATAPATTNS",
+        "fromDate": "2024-01-08"
+    },
+    {
+        "symbol": "KEC",
+        "fromDate": "2024-01-08"
+    },
+    {
+        "symbol": "KFINTECH",
+        "fromDate": "2024-01-08"
     }
 ]

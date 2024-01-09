@@ -21,6 +21,7 @@
     display: block;
     color: #fff;
     min-height: 24px;
+    background-color: gray;
 }
 
 .historySec .eachDay .pos {
