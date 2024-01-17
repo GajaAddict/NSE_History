@@ -298,5 +298,45 @@
     {
         "symbol": "KFINTECH",
         "fromDate": "2024-01-08"
+    },
+    {
+        "symbol": "APLAPOLLO",
+        "fromDate": "2024-01-10"
+    },
+    {
+        "symbol": "JAMNAAUTO",
+        "fromDate": "2024-01-11"
+    },
+    {
+        "symbol": "MAPMYINDIA",
+        "fromDate": "2024-01-11"
+    },
+    {
+        "symbol": "VTL",
+        "fromDate": "2024-01-11"
+    },
+    {
+        "symbol": "CERA",
+        "fromDate": "2024-01-12"
+    },
+    {
+        "symbol": "IDFCFIRSTB",
+        "fromDate": "2024-01-16"
+    },
+    {
+        "symbol": "MARUTI",
+        "fromDate": "2024-01-16"
+    },
+    {
+        "symbol": "GRINFRA",
+        "fromDate": "2024-01-17"
+    },
+    {
+        "symbol": "ICICIGI",
+        "fromDate": "2024-01-17"
+    },
+    {
+        "symbol": "KPRMILL",
+        "fromDate": "2024-01-17"
     }
 ]

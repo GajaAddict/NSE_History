@@ -12,7 +12,7 @@ $(document).ready(function () {
     ChartArray = [];
     instrumentsId = [];
 
-    for (let i = 10; i > 5; i--) {//here
+    for (let i = 11; i > 5; i--) {//here
 
         setTimeout(function () {
             console.log(i)
@@ -31,7 +31,7 @@ $(document).ready(function () {
                     historyJson = historyJson + data;
                 }
             })
-        }, 300 * (10 - i));//here
+        }, 300 * (11 - i));//here
     }
 
     function generateReturnDays() {
