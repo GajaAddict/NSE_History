@@ -58,6 +58,10 @@ $(document).ready(function () {
     }
 
     $('#scToday').on('click', function () {
+
+        $.get("https://us-central1-smallcase-cron.cloudfunctions.net/api/getItems", function (data) {
+        })
+
         $.get("https://api.smallcase.com/smallcases/discover?count=50&offset=1", function (data) {
 
             $("#showCorsMsg").hide()

@@ -338,5 +338,245 @@
     {
         "symbol": "KPRMILL",
         "fromDate": "2024-01-17"
+    },
+    {
+        "symbol": "SAFARI",
+        "fromDate": "2024-01-18"
+    },
+    {
+        "symbol": "ASAHIINDIA",
+        "fromDate": "2024-01-24"
+    },
+    {
+        "symbol": "ASTRAL",
+        "fromDate": "2024-01-24"
+    },
+    {
+        "symbol": "CCL",
+        "fromDate": "2024-01-24"
+    },
+    {
+        "symbol": "MARUTI",
+        "fromDate": "2024-01-24"
+    },
+    {
+        "symbol": "MEDPLUS",
+        "fromDate": "2024-01-24"
+    },
+    {
+        "symbol": "SHREECEM",
+        "fromDate": "2024-01-24"
+    },
+    {
+        "symbol": "BALRAMCHIN",
+        "fromDate": "2024-01-25"
+    },
+    {
+        "symbol": "GAEL",
+        "fromDate": "2024-01-25"
+    },
+    {
+        "symbol": "RENUKA",
+        "fromDate": "2024-01-25"
+    },
+    {
+        "symbol": "VGUARD",
+        "fromDate": "2024-01-25"
+    },
+    {
+        "symbol": "ASAHIINDIA",
+        "fromDate": "2024-02-09"
+    },
+    {
+        "symbol": "ATUL",
+        "fromDate": "2024-02-09"
+    },
+    {
+        "symbol": "CARBORUNIV",
+        "fromDate": "2024-02-09"
+    },
+    {
+        "symbol": "IDEA",
+        "fromDate": "2024-02-09"
+    },
+    {
+        "symbol": "METROBRAND",
+        "fromDate": "2024-02-09"
+    },
+    {
+        "symbol": "PRSMJOHNSN",
+        "fromDate": "2024-02-09"
+    },
+    {
+        "symbol": "ASIANPAINT",
+        "fromDate": "2024-02-13"
+    },
+    {
+        "symbol": "COROMANDEL",
+        "fromDate": "2024-02-13"
+    },
+    {
+        "symbol": "LTIM",
+        "fromDate": "2024-02-13"
+    },
+    {
+        "symbol": "MARICO",
+        "fromDate": "2024-02-13"
+    },
+    {
+        "symbol": "SBICARD",
+        "fromDate": "2024-02-13"
+    },
+    {
+        "symbol": "BATAINDIA",
+        "fromDate": "2024-02-15"
+    },
+    {
+        "symbol": "CRAFTSMAN",
+        "fromDate": "2024-02-15"
+    },
+    {
+        "symbol": "CUB",
+        "fromDate": "2024-02-15"
+    },
+    {
+        "symbol": "DEEPAKNTR",
+        "fromDate": "2024-02-15"
+    },
+    {
+        "symbol": "HDFCBANK",
+        "fromDate": "2024-02-15"
+    },
+    {
+        "symbol": "MAPMYINDIA",
+        "fromDate": "2024-02-15"
+    },
+    {
+        "symbol": "ROUTE",
+        "fromDate": "2024-02-15"
+    },
+    {
+        "symbol": "SUVENPHAR",
+        "fromDate": "2024-02-15"
+    },
+    {
+        "symbol": "AAVAS",
+        "fromDate": "2024-02-20"
+    },
+    {
+        "symbol": "ABB",
+        "fromDate": "2024-02-20"
+    },
+    {
+        "symbol": "ALKYLAMINE",
+        "fromDate": "2024-02-20"
+    },
+    {
+        "symbol": "ALLCARGO",
+        "fromDate": "2024-02-20"
+    },
+    {
+        "symbol": "AUBANK",
+        "fromDate": "2024-02-20"
+    },
+    {
+        "symbol": "BALAMINES",
+        "fromDate": "2024-02-20"
+    },
+    {
+        "symbol": "CHAMBLFERT",
+        "fromDate": "2024-02-20"
+    },
+    {
+        "symbol": "CLEAN",
+        "fromDate": "2024-02-20"
+    },
+    {
+        "symbol": "FACT",
+        "fromDate": "2024-02-20"
+    },
+    {
+        "symbol": "HINDUNILVR",
+        "fromDate": "2024-02-20"
+    },
+    {
+        "symbol": "AUROPHARMA",
+        "fromDate": "2024-02-21"
+    },
+    {
+        "symbol": "BALRAMCHIN",
+        "fromDate": "2024-02-21"
+    },
+    {
+        "symbol": "CROMPTON",
+        "fromDate": "2024-02-21"
+    },
+    {
+        "symbol": "DEEPAKFERT",
+        "fromDate": "2024-02-21"
+    },
+    {
+        "symbol": "MTARTECH",
+        "fromDate": "2024-02-21"
+    },
+    {
+        "symbol": "NUVOCO",
+        "fromDate": "2024-02-21"
+    },
+    {
+        "symbol": "NYKAA",
+        "fromDate": "2024-02-21"
+    },
+    {
+        "symbol": "PGHH",
+        "fromDate": "2024-02-21"
+    },
+    {
+        "symbol": "ROSSARI",
+        "fromDate": "2024-02-21"
+    },
+    {
+        "symbol": "SAPPHIRE",
+        "fromDate": "2024-02-21"
+    },
+    {
+        "symbol": "HAPPSTMNDS",
+        "fromDate": "2024-02-23"
+    },
+    {
+        "symbol": "ITC",
+        "fromDate": "2024-02-23"
+    },
+    {
+        "symbol": "LT",
+        "fromDate": "2024-02-23"
+    },
+    {
+        "symbol": "PAYTM",
+        "fromDate": "2024-02-23"
+    },
+    {
+        "symbol": "PRESTIGE",
+        "fromDate": "2024-02-23"
+    },
+    {
+        "symbol": "RAJESHEXPO",
+        "fromDate": "2024-02-23"
+    },
+    {
+        "symbol": "SUPREMEIND",
+        "fromDate": "2024-02-23"
+    },
+    {
+        "symbol": "BALKRISIND",
+        "fromDate": "2024-02-23"
+    },
+    {
+        "symbol": "BANDHANBNK",
+        "fromDate": "2024-02-23"
+    },
+    {
+        "symbol": "GNFC",
+        "fromDate": "2024-02-23"
     }
 ]
