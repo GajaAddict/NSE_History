@@ -12,27 +12,27 @@ $(document).ready(function () {
     ChartArray = [];
     instrumentsId = [];
 
-    for (let i = 11; i > 5; i--) {//here
+    // for (let i = 11; i > 5; i--) {//here
 
-        setTimeout(function () {
-            console.log(i)
-            $.get("smallCase" + i + ".json", function (data) {
-                console.log("data" + i)
-                if (data) {
-                    if (typeof (data) == 'object') {
-                        historyJson = historyJson.concat(data);
-                    }
-                    else {
-                        historyJson = historyJson.concat(JSON.parse(data));
-                    }
-                }
-            }).fail(function (e) {
-                if (data) {
-                    historyJson = historyJson + data;
-                }
-            })
-        }, 300 * (11 - i));//here
-    }
+    //     setTimeout(function () {
+    //         console.log(i)
+    //         $.get("smallCase" + i + ".json", function (data) {
+    //             console.log("data" + i)
+    //             if (data) {
+    //                 if (typeof (data) == 'object') {
+    //                     historyJson = historyJson.concat(data);
+    //                 }
+    //                 else {
+    //                     historyJson = historyJson.concat(JSON.parse(data));
+    //                 }
+    //             }
+    //         }).fail(function (e) {
+    //             if (data) {
+    //                 historyJson = historyJson + data;
+    //             }
+    //         })
+    //     }, 300 * (11 - i));//here
+    // }
 
     function generateReturnDays() {
         generateDropDown();
@@ -59,15 +59,12 @@ $(document).ready(function () {
 
     $('#scToday').on('click', function () {
 
-        $.get("https://us-central1-smallcase-cron.cloudfunctions.net/api/getItems", function (data) {
-        })
-
-        $.get("https://api.smallcase.com/smallcases/discover?count=50&offset=1", function (data) {
+        $.get("https://us-central1-smallcase-cron.cloudfunctions.net/api/getLivedata", function (response) {
 
             $("#showCorsMsg").hide()
-            if (data) {
+            if (response) {
 
-                let datarows = data.data;
+                let datarows = response.data.data;
 
                 let table = "";
                 let eachRow = "";
@@ -101,10 +98,16 @@ $(document).ready(function () {
     });
 
     $('#scHistoryBtn').on('click', function () {
+
+        $("#SmallCasehistory").html(`<h1> Data Loading... </h1>
+            <div class="spinner-border" role="status">
+<span class="sr-only">Loading...</span>
+</div>`)
+
         masterArray = [];
-        $.get("https://api.smallcase.com/smallcases/discover?count=50&offset=1", function (data) {
-            if (data) {
-                let datarows = data.data;
+        $.get("https://us-central1-smallcase-cron.cloudfunctions.net/api/getLivedata", function (response) {
+            if (response) {
+                let datarows = response.data.data;
                 for (let i = 0; i < datarows.length; i++) {
                     let eachScArray = [];
                     let newObj = {
@@ -118,65 +121,88 @@ $(document).ready(function () {
                     });
                 }
 
-                if (historyJson) {
-                    for (let i = 0; i < historyJson.length; i++) {
-                        for (let j = 0; j < historyJson[i].data.length; j++) {
-                            for (let k = 0; k < masterArray.length; k++) {
-                                if (masterArray[k].scid == historyJson[i].data[j].scid) {
-                                    let newObj = {
-                                        "index": historyJson[i].data[j].stats.lastCloseIndex.toFixed(2)
+                // if (historyJson) {
+                //     for (let i = 0; i < historyJson.length; i++) {
+                //         for (let j = 0; j < historyJson[i].data.length; j++) {
+                //             for (let k = 0; k < masterArray.length; k++) {
+                //                 if (masterArray[k].scid == historyJson[i].data[j].scid) {
+                //                     let newObj = {
+                //                         "index": historyJson[i].data[j].stats.lastCloseIndex.toFixed(2)
+                //                     }
+                //                     masterArray[k]["indexHistory"].push(newObj);
+                //                 }
+                //             }
+                //         }
+                //     }
+                // }
+
+                $.get("https://us-central1-smallcase-cron.cloudfunctions.net/api/getItems", function (historyJson) {
+                    if (historyJson) {
+                        for (let i = 1; i < historyJson.length; i++) {
+                            for (let j = 0; j < historyJson[i].data.length; j++) {
+                                for (let k = 0; k < masterArray.length; k++) {
+                                    if (masterArray[k].scid == historyJson[i].data[j].scid) {
+
+                                        let fixed2Val = historyJson[i].data[j].dailyData.lastCloseIndex.toFixed(2);
+                                        let fullVal = historyJson[i].data[j].dailyData.lastCloseIndex;
+                                        let newObj = {
+                                            "index": fixed2Val,
+                                            "fullVal": fullVal
+                                        }
+                                        if (masterArray[k]["indexHistory"].at(-1)?.fullVal != fullVal) {
+                                            masterArray[k]["indexHistory"].push(newObj);
+                                        }
                                     }
-                                    masterArray[k]["indexHistory"].push(newObj);
                                 }
                             }
                         }
-                    }
-                }
 
-                console.log(masterArray);
+                        console.log(masterArray);
 
-                masterArray = addChange(masterArray);
+                        masterArray = addChange(masterArray);
 
-                var selectedDay = dayReturn[1];
-                masterArray.sort((a, b) => parseFloat(b[selectedDay]) - parseFloat(a[selectedDay]));
-                generateHistoryTable(masterArray, selectedDay, 'sc');
+                        var selectedDay = dayReturn[1];
+                        masterArray.sort((a, b) => parseFloat(b[selectedDay]) - parseFloat(a[selectedDay]));
+                        generateHistoryTable(masterArray, selectedDay, 'sc');
 
-                //For Chart
-                let totalPoints = 0;
-                masterArray.forEach(array => {
-                    if (array.name == 'Insurance Tracker') {    //longest tracked data
-                        totalPoints = array.indexHistory.length;
-                    }
-                });
+                        //For Chart
+                        let totalPoints = 0;
+                        masterArray.forEach(array => {
+                            if (array.name == 'Insurance Tracker') {    //longest tracked data
+                                totalPoints = array.indexHistory.length;
+                            }
+                        });
 
-                ChartArray = [['Day']];
-                for (let count = totalPoints; count > 0; count--) {
-                    ChartArray.push([count])
-                }
-
-                masterArray.forEach(array => {
-                    ChartArray[0].push(array.name) // push array name
-
-                    let lastArrayValue = array.indexHistory[array.indexHistory.length - 1].index;
-
-                    array.indexHistory.forEach((history, i) => {
-                        ChartArray[i + 1]?.push(parseInt(history.index) * 100 / lastArrayValue) // start with 100 for all sm's
-                    })
-                    if (array.indexHistory.length < totalPoints) {
-                        let localPoints = array.indexHistory.length;
-                        for (let o = localPoints; o < totalPoints; o++) {
-                            ChartArray[o + 1].push(0)
-                            console.log(o)
+                        ChartArray = [['Day']];
+                        for (let count = totalPoints; count > 0; count--) {
+                            ChartArray.push([count])
                         }
+
+                        masterArray.forEach(array => {
+                            ChartArray[0].push(array.name) // push array name
+
+                            let lastArrayValue = array.indexHistory[array.indexHistory.length - 1].index;
+
+                            array.indexHistory.forEach((history, i) => {
+                                ChartArray[i + 1]?.push(parseInt(history.index) * 100 / lastArrayValue) // start with 100 for all sm's
+                            })
+                            if (array.indexHistory.length < totalPoints) {
+                                let localPoints = array.indexHistory.length;
+                                for (let o = localPoints; o < totalPoints; o++) {
+                                    ChartArray[o + 1].push(0)
+                                    console.log(o)
+                                }
+                            }
+                        })
+
+                        console.log(ChartArray);
+
+                        google.charts.load('current', { 'packages': ['corechart'] });
+                        google.charts.setOnLoadCallback(drawChart);
+
+                        //For Chart
                     }
                 })
-
-                console.log(ChartArray);
-
-                google.charts.load('current', { 'packages': ['corechart'] });
-                google.charts.setOnLoadCallback(drawChart);
-
-                //For Chart
             }
         });
     });
@@ -204,7 +230,7 @@ $(document).ready(function () {
         macdStocks = []
         niftyMasterArray = [];
         let fileName = "macdStocks.json"
-        debugger;
+
         if ($('#smallCaseByShank').is(":checked")) {
             fileName = 'smallcase2024Stocks.json'
         }
@@ -228,7 +254,7 @@ $(document).ready(function () {
             }
         })
 
-
+        scStocksHistoryBtn
     });
 
     function makeEachSmallcaseCall(scID) {
