@@ -117,7 +117,8 @@ $(document).ready(function () {
                     masterArray.push({
                         "name": datarows[i].info.name,
                         "indexHistory": eachScArray,
-                        "scid": datarows[i].scid
+                        "scid": datarows[i].scid,
+                        "private": datarows[i]?.flags?.private,
                     });
                 }
 
@@ -373,7 +374,8 @@ $(document).ready(function () {
         let histSection = "";
         for (let i = 0; i < keys.length; i++) {
             let eachSC = masterArray[keys[i]];
-            let eachSCHtml = '<div class="eachSC"><span class="title">' + eachSC.name + '</span>';
+            let privateSc = eachSC.private ? 'redsmallbox' : 'greensmallbox';
+            let eachSCHtml = '<div class="eachSC"><span class=' + privateSc + '></span><span class="title">' + eachSC.name + '</span>';
             if (idForDisplay != "sc") {
                 eachSCHtml = eachSCHtml + '<a href="https://www.nseindia.com/get-quotes/equity?symbol=' + eachSC.name + '" target="_blank"><span class="material-icons" style="font-size: 30px;width: 40px;">query_stats</span></a>';
                 eachSCHtml = eachSCHtml + '<a href="https://in.tradingview.com/symbols/NSE-' + eachSC.name + '/" target="_blank"><span class="material-icons" style="font-size: 30px;width: 40px;">candlestick_chart</span></span></a>';
